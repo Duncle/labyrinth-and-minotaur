@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerMoveHelper : MonoBehaviour
 {
-
+    public float rotSpeed = 1.5f;
     private float _vertSpeed;
     public float jumpSpeed = 15.0f;
     public float gravity = -9.8f;
@@ -17,10 +17,17 @@ public class PlayerMoveHelper : MonoBehaviour
 
     void Update()
     {
-        Vector3 moveDirection = new Vector3(Input.GetAxis("Horizontal") * 2, 0.0f, Input.GetAxis("Vertical") * 2);
-
         CharacterController controller = GetComponent<CharacterController>();
-        Debug.Log(controller.isGrounded);
+        Vector3 movement = Vector3.zero;
+        controller.transform.Rotate(0, Input.GetAxis("Mouse X")  * rotSpeed* 3, 0);
+        float horInput = Input.GetAxis("Horizontal");
+        float vertInput = Input.GetAxis("Vertical");
+
+        movement.x = horInput * 5;
+        movement.z = vertInput * 5;
+
+
+        movement = controller.transform.TransformDirection(movement);
 
         if (controller.isGrounded)
         {
@@ -45,9 +52,10 @@ public class PlayerMoveHelper : MonoBehaviour
             }
 
         }
-        moveDirection.y = _vertSpeed;
+        movement.y = _vertSpeed;
 
+        movement = Vector3.ClampMagnitude(movement, 6f);
 
-        controller.Move(moveDirection * Time.deltaTime);
+        controller.Move(movement * Time.deltaTime);
     }
 }
