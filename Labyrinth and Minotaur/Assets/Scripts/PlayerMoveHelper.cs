@@ -23,8 +23,17 @@ public class PlayerMoveHelper : MonoBehaviour
         float horInput = Input.GetAxis("Horizontal");
         float vertInput = Input.GetAxis("Vertical");
 
-        movement.x = horInput * 5;
-        movement.z = vertInput * 5;
+        if (!Input.GetKey(KeyCode.LeftShift))
+        {
+
+            movement.x = horInput * 1.5f;
+            movement.z = vertInput * 1.5f;
+        }
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            movement.x = horInput * 4f;
+            movement.z = vertInput * 4f;
+        }
 
 
         movement = controller.transform.TransformDirection(movement);
