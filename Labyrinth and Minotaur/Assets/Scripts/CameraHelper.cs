@@ -13,12 +13,27 @@ public class CameraHelper : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
         _rotY = transform.eulerAngles.y;
-        _rotY = transform.eulerAngles.x;
+        _rotX = transform.eulerAngles.x;
         _offset = target.position - transform.position;
     }
-    void  Update()
+    void Update()
     {
-        
-      
+        _rotX += Input.GetAxis("Mouse X") * rotSpeed * 3;
+        _rotY += Input.GetAxis("Mouse Y") * -2;
+
+        if (_rotY >= 26)
+        {
+            _rotY = 26;
+        }
+        if (_rotY <= -33)
+        {
+            _rotY = -33;
+        }
+        if (_rotY <= 26 && _rotY >= -33)
+        {
+            Debug.Log("asd");
+            Quaternion rotation = Quaternion.Euler(_rotY, _rotX, 0);
+            transform.rotation = (rotation);
+        }
     }
 }

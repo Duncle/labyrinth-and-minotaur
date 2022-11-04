@@ -23,10 +23,7 @@ public class PlayerAnimationHelper : MonoBehaviour
         {
             GetComponent<Animator>().SetBool("Jump", false);
         }
-        if (controller.isGrounded)
-        {
-            Debug.Log("123");
-        }
+      
 
         //Ходьба
         //вперед
