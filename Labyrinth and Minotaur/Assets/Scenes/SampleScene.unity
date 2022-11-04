@@ -989,6 +989,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1325771358}
+  playerAnimator: {fileID: 1325771357}
   rotSpeed: 1.5
 --- !u!1 &968620079
 GameObject:
@@ -1421,6 +1422,11 @@ MonoBehaviour:
   gravity: -9.8
   terminalVelocity: -10
   minFall: -1.5
+--- !u!95 &1325771357 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: 51e845a39bd413a468ab1eacc073e8ef, type: 3}
+  m_PrefabInstance: {fileID: 1901312115}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1325771358 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 51e845a39bd413a468ab1eacc073e8ef, type: 3}
