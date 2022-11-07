@@ -10,6 +10,7 @@ public class PlayerMoveHelper : MonoBehaviour
     public float gravity = -9.8f;
     public float terminalVelocity = -10.0f;
     public float minFall = -1.5f;
+    private bool hitGround = false;
     void Start()
     {
         _vertSpeed = minFall;
@@ -18,14 +19,33 @@ public class PlayerMoveHelper : MonoBehaviour
     void Update()
     {
         CharacterController controller = GetComponent<CharacterController>();
-        Vector3 movement = Vector3.zero;
-        controller.transform.Rotate(0, Input.GetAxis("Mouse X") * rotSpeed * 3, 0);
+        float controllerPositionX = controller.transform.position.x;
+        float controllerPositionY = controller.transform.position.y - 0.29f;
+        float controllerPositionZ = controller.transform.position.z;
         float horInput = Input.GetAxis("Horizontal");
         float vertInput = Input.GetAxis("Vertical");
 
+        Vector3 rayOutPlayerTansfrom = new Vector3(controllerPositionX, controllerPositionY + 0.8f, controllerPositionZ);
+        Vector3 movement = Vector3.zero;
+
+        RaycastHit hit;
+
+        Physics.Raycast(rayOutPlayerTansfrom, Vector3.down, out hit);
+        Debug.DrawRay(rayOutPlayerTansfrom, Vector3.down, Color.red);
+
+        if (Physics.Raycast(rayOutPlayerTansfrom, Vector3.down, out hit))
+        {
+            Debug.Log(hit.collider.gameObject.name);
+            hitGround = true;
+        }
+        else
+        {
+            hitGround = false;
+        }
+
+        controller.transform.Rotate(0, Input.GetAxis("Mouse X") * rotSpeed * 3, 0);
         if (!Input.GetKey(KeyCode.LeftShift))
         {
-
             movement.x = horInput * 1.5f;
             movement.z = vertInput * 1.5f;
         }
@@ -38,7 +58,7 @@ public class PlayerMoveHelper : MonoBehaviour
 
         movement = controller.transform.TransformDirection(movement);
 
-        if (controller.isGrounded)
+        if (hitGround)
         {
 
             if (Input.GetButtonDown("Jump"))
@@ -51,7 +71,7 @@ public class PlayerMoveHelper : MonoBehaviour
             }
 
         }
-        if (controller.isGrounded == false)
+        else
         {
 
             _vertSpeed += gravity * 5 * Time.deltaTime;

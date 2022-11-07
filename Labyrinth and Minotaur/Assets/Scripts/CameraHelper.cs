@@ -34,7 +34,6 @@ public class CameraHelper : MonoBehaviour
         }
         if (_rotY <= 26 && _rotY >= -33)
         {
-            Debug.Log("asd");
             Quaternion rotation = Quaternion.Euler(_rotY, _rotX, 0);
             transform.rotation = (rotation);
         }

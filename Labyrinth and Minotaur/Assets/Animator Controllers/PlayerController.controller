@@ -1,31 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1102 &-9132813732233339216
-AnimatorState:
-  serializedVersion: 6
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 2Hand-Sword-Sheath-Back-Unarmed
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions: []
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
-  m_Motion: {fileID: 1827226128182048838, guid: 59f94dc7b1c108b44ba2160d3be80e66, type: 3}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
 --- !u!1101 &-8832751331518841138
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -752,9 +726,6 @@ AnimatorStateMachine:
   - serializedVersion: 1
     m_State: {fileID: -3498193249617525496}
     m_Position: {x: -170, y: 200, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: -9132813732233339216}
-    m_Position: {x: 826.8423, y: 143.59668, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: -2129854057866793904}
