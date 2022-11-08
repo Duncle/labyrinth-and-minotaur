@@ -7,39 +7,47 @@ public class CameraHelper : MonoBehaviour
     [SerializeField] private Transform target;
      
     public float rotSpeed = 1.5f;
-    private float _rotY;
-    private float _rotX;
-    private float _rotYTemp;
-    private Vector3 _offset;
+    public static float rotY;
+    public static float rotX;
+    private float rotYTemp;
+    private Vector3 offset;
+    public Animator playerAnimator;
+
+    
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
-        _rotY = transform.eulerAngles.y;
-        _rotX = transform.eulerAngles.x;
-        _offset = target.position - transform.position;
+        rotY = transform.eulerAngles.y;
+        rotX = transform.eulerAngles.x;
+        offset = target.position - transform.position;
     }
     void Update()
     {
+       
+       
+        if (!playerAnimator.GetCurrentAnimatorStateInfo(0).IsName("Damage"))
+        {
+                
+        rotX += Input.GetAxis("Mouse X") * rotSpeed * 3;
+        rotY += Input.GetAxis("Mouse Y") * -2;
 
-        _rotX += Input.GetAxis("Mouse X") * rotSpeed * 3;
-        _rotY += Input.GetAxis("Mouse Y") * -2;
-
-        if (_rotY >= 26)
+        if (rotY >= 26)
         {
-            _rotY = 26;
+            rotY = 26;
         }
-        if (_rotY <= -33)
+        if (rotY <= -33)
         {
-            _rotY = -33;
+            rotY = -33;
         }
-        if (_rotY <= 26 && _rotY >= -33)
+        if (rotY <= 26 && rotY >= -33)
         {
-            Quaternion rotation = Quaternion.Euler(_rotY, _rotX, 0);
+            Quaternion rotation = Quaternion.Euler(rotY, rotX, 0);
             transform.rotation = (rotation);
         }
-        _rotYTemp = _rotY;
+        rotYTemp = rotY;
 
-
+        }
 
     }
+ 
 }

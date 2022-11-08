@@ -66,4 +66,9 @@ public class PlayerMoveHelper : MonoBehaviour
 
         controller.Move(movement * Time.deltaTime);
     }
+    public void GetCameraRotationGromEndAnimation()
+    {
+       CameraHelper.rotX  = UnityEngine.Camera.main.transform.eulerAngles.x;
+        CameraHelper.rotY  = UnityEngine.Camera.main.transform.eulerAngles.y;
+    }
 }
