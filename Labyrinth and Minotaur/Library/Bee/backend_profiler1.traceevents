@@ -1,0 +1,465 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1667943700558578, "dur":1275, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667943700559859, "dur":47, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1667943700559922, "dur":13, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1667943700559935, "dur":147, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1667943700560101, "dur":384, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667943700560485, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667943701072524, "dur":51, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667943701072575, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667943701072592, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667943701072593, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667943701072600, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667943701072603, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667943701072610, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667943701072612, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667943701072618, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667943701072627, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667943701072636, "dur":1445, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1667943700561281, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667943700561281, "dur":12359, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667943700573650, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1667943700573656, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667943700574408, "dur":549, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1667943700574961, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1667943700574979, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667943700575068, "dur":7222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1667943700582292, "dur":439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1667943700582734, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667943700582739, "dur":1827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1667943700584790, "dur":363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1667943700585156, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667943700585160, "dur":2180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1667943700588612, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1667943700588920, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667943700588939, "dur":1309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1667943700590411, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1667943700590619, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667943700590622, "dur":916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1667943700591725, "dur":15965, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700607694, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667943700607736, "dur":85337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700693294, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700693533, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667943700693537, "dur":3737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700697545, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700697787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667943700697790, "dur":4235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700702034, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700702201, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667943700702205, "dur":3240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700705458, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700705620, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667943700705624, "dur":3675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700709311, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700709593, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667943700709597, "dur":3943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700713553, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700713734, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667943700713737, "dur":4480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700718272, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700718458, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667943700718462, "dur":3738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700722328, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700722516, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667943700722521, "dur":4168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700726707, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700726976, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667943700726981, "dur":4959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700731951, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700732130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667943700732135, "dur":4387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700736533, "dur":272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700736807, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667943700736812, "dur":3513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700740338, "dur":332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700740672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667943700740676, "dur":3950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700744637, "dur":354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700744994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667943700744998, "dur":5082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700750092, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700750244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667943700750264, "dur":1674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700751949, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700752095, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667943700752098, "dur":1854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700753962, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700754139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667943700754143, "dur":3790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700757944, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700758157, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667943700758162, "dur":3257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700761431, "dur":637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700762080, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667943700762105, "dur":4289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700766405, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700766614, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667943700766618, "dur":4860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700771491, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700771704, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667943700771708, "dur":2839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700774557, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700774772, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667943700774775, "dur":4082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700778869, "dur":508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700779379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667943700779384, "dur":5174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700784570, "dur":1399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700785972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667943700785977, "dur":17521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700803509, "dur":369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700803880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667943700803884, "dur":6472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700810376, "dur":3708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700814088, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667943700814109, "dur":58969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667943700873089, "dur":199416, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700561284, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700561284, "dur":12496, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700573781, "dur":3213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1667943700576996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700577024, "dur":2434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1667943700579645, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1667943700579913, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700579917, "dur":4105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1667943700584214, "dur":1119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1667943700585335, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700585338, "dur":1733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1667943700588517, "dur":1527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1667943700590046, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700590050, "dur":876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1667943700591071, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1667943700591340, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700591344, "dur":1899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1667943700594796, "dur":3394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1667943700598193, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700598198, "dur":18581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1667943700616956, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700617148, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700617252, "dur":7140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700624423, "dur":285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700624710, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700624714, "dur":3864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700628590, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700628778, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700628781, "dur":3498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700632292, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700632494, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700632498, "dur":3567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700636077, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700636268, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700636273, "dur":3673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700639965, "dur":373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700640340, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700640366, "dur":3080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700643465, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700643648, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700643651, "dur":3580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700647243, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700647437, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700647442, "dur":3392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700650846, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700651025, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700651030, "dur":3570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700654612, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700654796, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700654800, "dur":3729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700658541, "dur":1017, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700659561, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700659567, "dur":14726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700674304, "dur":298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700674604, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700674609, "dur":5145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700679766, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700679936, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700679940, "dur":3263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700683215, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700683458, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700683462, "dur":3237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700686712, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700686983, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700687006, "dur":3494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700690513, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700690677, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700690681, "dur":2878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700693568, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700693747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700693750, "dur":3474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700697236, "dur":369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700697607, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700697611, "dur":4166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700701790, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700702044, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700702048, "dur":4319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700706378, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700706604, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700706624, "dur":3887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700710522, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700710681, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700710685, "dur":2868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700713564, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700713724, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700713728, "dur":4623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700718361, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700718590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700718594, "dur":5844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700724455, "dur":902, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700725359, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700725364, "dur":12582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700737957, "dur":644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700738604, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700738607, "dur":4380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700743000, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700743209, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700743213, "dur":3598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700746822, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700746988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700746992, "dur":2201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700749205, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700749372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700749376, "dur":2197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700751585, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700751740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700751744, "dur":2165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700753920, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700754213, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700754216, "dur":1973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700756204, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700756486, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700756489, "dur":3349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700759849, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700760144, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700760148, "dur":3874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700764033, "dur":700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700764736, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700764740, "dur":9306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700774058, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700774240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700774245, "dur":2324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700776581, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700776746, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700776750, "dur":3298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700780062, "dur":1753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700781818, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700781823, "dur":23478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700805324, "dur":523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700805850, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700805856, "dur":5564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700811431, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700811704, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700811709, "dur":9183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667943700820904, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1667943700820916, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667943700820919, "dur":34983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1667943700855953, "dur":216564, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667943700561307, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667943700561308, "dur":12335, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667943700573650, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1667943700573882, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667943700574693, "dur":6054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1667943700582436, "dur":555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1667943700582994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667943700583230, "dur":1162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1667943700584744, "dur":1182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1667943700585928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667943700585932, "dur":2968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1667943700589076, "dur":1432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1667943700590509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667943700590513, "dur":861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1667943700591827, "dur":264664, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667943700856494, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667943700856498, "dur":215774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667943701072492, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1667943701072495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700561333, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700561333, "dur":12308, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700573650, "dur":3312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1667943700576966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700577211, "dur":2252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1667943700579650, "dur":3474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1667943700583126, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700583130, "dur":935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1667943700584238, "dur":360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1667943700584600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700584662, "dur":1428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1667943700586371, "dur":314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1667943700586687, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700586967, "dur":2473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1667943700589664, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1667943700589835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700589840, "dur":1410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1667943700591639, "dur":2361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700594022, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700594201, "dur":14220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700608591, "dur":539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur.exe" }}
+,{ "pid":12345, "tid":4, "ts":1667943700609133, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700609138, "dur":6201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur.exe" }}
+,{ "pid":12345, "tid":4, "ts":1667943700615350, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1667943700615622, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700615748, "dur":5158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1667943700621165, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700621363, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700621379, "dur":2962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700624352, "dur":293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700624648, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700624652, "dur":3664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700628327, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700628593, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700628597, "dur":4097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700632705, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700632875, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700632879, "dur":3254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700636143, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700636329, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700636332, "dur":3618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700639964, "dur":376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700640342, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700640372, "dur":3067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700643454, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700643631, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700643635, "dur":3600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700647246, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700647450, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700647454, "dur":3384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700650848, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700651065, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700651068, "dur":3509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700654589, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700654798, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700654801, "dur":3285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700658097, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700658285, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700658289, "dur":4358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700662660, "dur":295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700662957, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700662961, "dur":3621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700666594, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700666766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700666770, "dur":2997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700669777, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700669950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700669954, "dur":3391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700673372, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700673561, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700673582, "dur":3268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700676862, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700677053, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700677058, "dur":3596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700680666, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700680885, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700680890, "dur":4180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700685081, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700685242, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700685246, "dur":3528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700688785, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700688946, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700688950, "dur":3173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700692133, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700692298, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700692314, "dur":3389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700695715, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700695873, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700695876, "dur":3838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700699725, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700699884, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700699888, "dur":3330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700703229, "dur":416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700703647, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700703652, "dur":4321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700707986, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700708184, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700708188, "dur":3578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700711777, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700712024, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700712028, "dur":3812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700715909, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700716102, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700716107, "dur":4544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700720663, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700720839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700720844, "dur":4839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700725693, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700725860, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700725864, "dur":4910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700730787, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700730946, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700730950, "dur":3018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700733979, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700734145, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700734149, "dur":3782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700737943, "dur":272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700738218, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700738222, "dur":4796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700743029, "dur":284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700743315, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700743318, "dur":2873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700746207, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700746367, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700746371, "dur":1951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700748333, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700748482, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700748486, "dur":1960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700750456, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700750628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700750631, "dur":2907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700753550, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700753703, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700753707, "dur":2155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700755873, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700756019, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700756024, "dur":1905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700757941, "dur":2213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700760156, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700760159, "dur":26668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700786870, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700787034, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700787085, "dur":3527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700790625, "dur":783, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700791411, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700791415, "dur":8900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700800325, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700800541, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700800545, "dur":2979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700803536, "dur":600, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700804138, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700804142, "dur":8357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700812512, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700812684, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700812689, "dur":4977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667943700817679, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1667943700817828, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700817932, "dur":600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1667943700818543, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1667943700818553, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700818565, "dur":20753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1667943700839330, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1667943700839342, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700839350, "dur":5741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1667943700845103, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1667943700845254, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700845258, "dur":595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1667943700845862, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1667943700846053, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700846058, "dur":1676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1667943700847745, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1667943700847757, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700847761, "dur":740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1667943700848511, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1667943700848542, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700848545, "dur":745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1667943700849300, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1667943700849310, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700849313, "dur":1033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1667943700850357, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1667943700850371, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700850374, "dur":1041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1667943700851427, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1667943700851440, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700851444, "dur":633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1667943700852087, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PreBuild/Labyrinth and Minotaur_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1667943700852227, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667943700852231, "dur":574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PreBuild/Labyrinth and Minotaur_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1667943700852815, "dur":219707, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667943701075794, "dur":1521, "ph":"X", "name": "ProfilerWriteOutput" }
+,
