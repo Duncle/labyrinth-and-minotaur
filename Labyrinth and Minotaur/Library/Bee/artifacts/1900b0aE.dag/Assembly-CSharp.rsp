@@ -338,14 +338,19 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/Materials/NewBehaviourScript.cs"
 "Assets/Scripts/CameraHelper.cs"
 "Assets/Scripts/Classes/PlayerClass.cs"
 "Assets/Scripts/Classes/Weapon.cs"
+"Assets/Scripts/Entities/Interactable.cs"
 "Assets/Scripts/GhoulScript/GhoulDamageScript.cs"
 "Assets/Scripts/GhoulScript/GhoulScript.cs"
+"Assets/Scripts/Inventory/Inventory.cs"
+"Assets/Scripts/Inventory/InventorySlot.cs"
+"Assets/Scripts/Inventory/InventoryUI.cs"
+"Assets/Scripts/Inventory/Item.cs"
+"Assets/Scripts/Inventory/ItemPickUp.cs"
 "Assets/Scripts/PlayerAnimationHelper.cs"
-"Assets/Scripts/PlayerMoveHelper.cs"
+"Assets/Scripts/PlayerController.cs"
 -langversion:9.0
 
 /deterministic
