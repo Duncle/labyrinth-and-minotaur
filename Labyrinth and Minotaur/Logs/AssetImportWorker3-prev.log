@@ -1,0 +1,479 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.13f1 (9e7d58001ecf) revision 10386776'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Core' Language: 'ru' Physical Memory: 16265 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Data\2021.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/Sveto/Documents/GitHub/labyrinth-and-minotaur/Labyrinth and Minotaur
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+1075
+Successfully changed project path to: C:/Users/Sveto/Documents/GitHub/labyrinth-and-minotaur/Labyrinth and Minotaur
+C:/Users/Sveto/Documents/GitHub/labyrinth-and-minotaur/Labyrinth and Minotaur
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 23.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.13f1 (9e7d58001ecf)
+[Subsystems] Discovering subsystems at path D:/Data/2021.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Sveto/Documents/GitHub/labyrinth-and-minotaur/Labyrinth and Minotaur/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   NVIDIA
+    VRAM:     4018 MB
+    Driver:   30.0.15.1179
+Initialize mono
+Mono path[0] = 'D:/Data/2021.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Data/2021.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Data/2021.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56208
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Data/2021.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Data/2021.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002022 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 28.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.489 seconds
+Domain Reload Profiling:
+	ReloadAssembly (490ms)
+		BeginReloadAssembly (57ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (343ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (101ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (173ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (29ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (99ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002276 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.650 seconds
+Domain Reload Profiling:
+	ReloadAssembly (651ms)
+		BeginReloadAssembly (78ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (491ms)
+			LoadAssemblies (49ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (141ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (234ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (165ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1687 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (50.0 KB). Loaded Objects now: 2154.
+Memory consumption went from 73.0 MB to 72.9 MB.
+Total: 1.966900 ms (FindLiveObjects: 0.101900 ms CreateObjectMapping: 0.042100 ms MarkObjects: 1.740200 ms  DeleteObjects: 0.081800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002793 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.745 seconds
+Domain Reload Profiling:
+	ReloadAssembly (745ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (566ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (183ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (241ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (37ms)
+				ProcessInitializeOnLoadAttributes (167ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1661 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (24.6 KB). Loaded Objects now: 2138.
+Memory consumption went from 72.3 MB to 72.3 MB.
+Total: 1.941100 ms (FindLiveObjects: 0.100100 ms CreateObjectMapping: 0.038200 ms MarkObjects: 1.778000 ms  DeleteObjects: 0.023700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002471 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.767 seconds
+Domain Reload Profiling:
+	ReloadAssembly (768ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (590ms)
+			LoadAssemblies (54ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (185ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (266ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1661 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 12 unused Assets / (24.6 KB). Loaded Objects now: 2141.
+Memory consumption went from 72.2 MB to 72.2 MB.
+Total: 2.044900 ms (FindLiveObjects: 0.151800 ms CreateObjectMapping: 0.050400 ms MarkObjects: 1.826000 ms  DeleteObjects: 0.015800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 600158.832074 seconds.
+  path: Assets/Textures/Spider/Materials/14 - Default_Flattened_Diffuse.mat
+  artifactKey: Guid(4421f61fad180984ea88b0f552ac93be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Spider/Materials/14 - Default_Flattened_Diffuse.mat using Guid(4421f61fad180984ea88b0f552ac93be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c971c01fa3ae014b04a578bda95a2e2b') in 0.159312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Dirt_1.mat
+  artifactKey: Guid(56b629314517e40929c83b1b37d23e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Dirt_1.mat using Guid(56b629314517e40929c83b1b37d23e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b74e9604f6fd2697f679417025a01e') in 0.019696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Bush_1.mat
+  artifactKey: Guid(47beed327039b4bc89c7bfab618add20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Bush_1.mat using Guid(47beed327039b4bc89c7bfab618add20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f01668506b54c26d57056804b5d46a4e') in 0.015592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/GreekPack1Lite/Models/Optimized/Materials/Greek_Combined.mat
+  artifactKey: Guid(6a723adf9bbee4535b3b125e8b3f8c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Optimized/Materials/Greek_Combined.mat using Guid(6a723adf9bbee4535b3b125e8b3f8c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f724946f4cfe438c6ab7e67ce5eec2f0') in 0.013067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Flower_1.mat
+  artifactKey: Guid(caa72d5aff9b84502ad37484407ceca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Flower_1.mat using Guid(caa72d5aff9b84502ad37484407ceca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db2be92ec7bf1d16e6b614018b3a208b') in 0.015499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Bark_1.mat
+  artifactKey: Guid(bf87c698a6d9f4a00a9c23a1a302c39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Bark_1.mat using Guid(bf87c698a6d9f4a00a9c23a1a302c39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed39f6c935be9187123b89ac5304369f') in 0.011659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Accent_Orange.mat
+  artifactKey: Guid(53a9aa258f56c43cb9a8c17e13ed85b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Accent_Orange.mat using Guid(53a9aa258f56c43cb9a8c17e13ed85b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b90c1f29d8ba1ac5796498332b7ed805') in 0.012516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Cloth_Blue.mat
+  artifactKey: Guid(a6f26a496099548c29adb9c535437a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Cloth_Blue.mat using Guid(a6f26a496099548c29adb9c535437a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e1c325a2b2b401395a2eae04ee880d') in 0.014326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.496574 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Flower_3.mat
+  artifactKey: Guid(523124601af35487bb57d52f9fe68f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Flower_3.mat using Guid(523124601af35487bb57d52f9fe68f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1bbf1e8ff4a63a0baf57f134c06fa53') in 0.014339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Vase_1.mat
+  artifactKey: Guid(ad416ec4307d74bfc94d2d8be55f0cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Vase_1.mat using Guid(ad416ec4307d74bfc94d2d8be55f0cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f325e933c238eed48ef07cc53525ff') in 0.014246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Stone_1.mat
+  artifactKey: Guid(7ed566b1767084d5cbcd1b3b150e3633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Stone_1.mat using Guid(7ed566b1767084d5cbcd1b3b150e3633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735eda13ee1625790fe0f871a6bfcb06') in 0.012053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Stone_4.mat
+  artifactKey: Guid(35ceeb845bcaf4d399ebff0070a2de91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Stone_4.mat using Guid(35ceeb845bcaf4d399ebff0070a2de91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4881b622acfa1e0bf4628fe510b555c') in 0.016329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(4e4536a5e6b53e14db142bd55a10cdaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(4e4536a5e6b53e14db142bd55a10cdaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f88ee34d579f3224045dd430b93d6dd') in 0.010651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Materials/thumb_37303.mat
+  artifactKey: Guid(31d070607d90bf74cbf0539eca9e530c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/thumb_37303.mat using Guid(31d070607d90bf74cbf0539eca9e530c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad70ddbb39a0cdfaf7d93ebc7a394b96') in 0.011990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GreekPack1Lite/Models/Optimized/Materials/PalmDarkBark.mat
+  artifactKey: Guid(ac1631addf47a43369d997aaf619a8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Optimized/Materials/PalmDarkBark.mat using Guid(ac1631addf47a43369d997aaf619a8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d003d3230eb0c48b6c990ca0669f366') in 0.015350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Stone_2.mat
+  artifactKey: Guid(7c41cd8c830924aa299e46e6eef716bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Stone_2.mat using Guid(7c41cd8c830924aa299e46e6eef716bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab1e9e4d9f0cc6fc4b4451eefe7eba23') in 0.009239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Vine_1.mat
+  artifactKey: Guid(6afd25be3eebe47f0bfbc21a6637aaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Vine_1.mat using Guid(6afd25be3eebe47f0bfbc21a6637aaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e8bc3cb376acb144be36b0293fc918e') in 0.015671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GreekPack1Lite/Models/Optimized/Materials/Greek_Stone_6.001.mat
+  artifactKey: Guid(e79951c3f404a46d8892a5098e1a866d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Optimized/Materials/Greek_Stone_6.001.mat using Guid(e79951c3f404a46d8892a5098e1a866d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c152cffa3a47f6f83399cd422a9481ec') in 0.016241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/GreekPack1Lite/Models/Optimized/Materials/PalmBark2.mat
+  artifactKey: Guid(34387c295b1a0465ea12d13998db0d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Optimized/Materials/PalmBark2.mat using Guid(34387c295b1a0465ea12d13998db0d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2be1c0d811bb7daf773cf8561c4956be') in 0.016036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Stone_5.mat
+  artifactKey: Guid(257dfd3a2570d46ef994063289de7684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Stone_5.mat using Guid(257dfd3a2570d46ef994063289de7684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3d3b8210d30b930b07b6b914c4d6ed7') in 0.011275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Wood_1.mat
+  artifactKey: Guid(ac434d30fa0fd41a6a0a4d1ce678be54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Wood_1.mat using Guid(ac434d30fa0fd41a6a0a4d1ce678be54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8582cc0e7fbb4480cdbfda4559f8529') in 0.013068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Silver_1.mat
+  artifactKey: Guid(2c47c88d7fcbf4ce3aa8da9f42f86898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Silver_1.mat using Guid(2c47c88d7fcbf4ce3aa8da9f42f86898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ffa5f2284320474e811a6374474d855') in 0.022302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Materials/Spartan_Low_mat_armor_AlbedoTransparency.mat
+  artifactKey: Guid(97add550b4555ad40a96b24d9707f6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Spartan_Low_mat_armor_AlbedoTransparency.mat using Guid(97add550b4555ad40a96b24d9707f6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31955d7a183fde40ff3ecf17d096cd05') in 0.030620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Stone_6.mat
+  artifactKey: Guid(1132727fdae054c0fa6d57ba46f59636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Stone_6.mat using Guid(1132727fdae054c0fa6d57ba46f59636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e989165b58bbdfc595dc2fa7f4f24b6') in 0.015826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Materials/Spartan_Low_mat_body_AlbedoTransparency.mat
+  artifactKey: Guid(ed048a76185c074418e33e9e96a10a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Spartan_Low_mat_body_AlbedoTransparency.mat using Guid(ed048a76185c074418e33e9e96a10a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e4855c6cb261ec08a738f01bcbaf22') in 0.024022 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002430 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.713 seconds
+Domain Reload Profiling:
+	ReloadAssembly (714ms)
+		BeginReloadAssembly (92ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (536ms)
+			LoadAssemblies (50ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (142ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (258ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (171ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1661 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 12 unused Assets / (24.6 KB). Loaded Objects now: 2185.
+Memory consumption went from 76.4 MB to 76.4 MB.
+Total: 2.313400 ms (FindLiveObjects: 0.112700 ms CreateObjectMapping: 0.042500 ms MarkObjects: 2.135300 ms  DeleteObjects: 0.021900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
