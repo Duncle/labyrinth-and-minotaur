@@ -10,12 +10,11 @@ public class CameraHelper : MonoBehaviour
     [SerializeField] private float maxUp;
     [SerializeField] private float minUp;
     [SerializeField] private float xRotation;
-    [SerializeField] private Transform playerTransform;
+    public Transform playerTransform;
 
-    void Awake()
+    void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
-        playerTransform = FindObjectOfType<CharacterController>().GetComponent<Transform>();
 
     }
     void Update()
@@ -30,9 +29,9 @@ public class CameraHelper : MonoBehaviour
     }
     private void SetMouseRotation()
     {
-        xRotation -= mouseY;
-        transform.localRotation = Quaternion.Euler(xRotation, 0, 0);
-        xRotation = Mathf.Clamp(xRotation, (maxUp ), (minUp));
+        xRotation    -= mouseY;
+        transform.localRotation = Quaternion.Euler(xRotation,0  , 0);
+        xRotation = Mathf.Clamp(xRotation, (maxUp*-1), (minUp * -1));
         playerTransform.Rotate(Vector3.up * mouseX);
     }
 }
