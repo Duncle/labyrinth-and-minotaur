@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour
     {
         CharacterController controller = GetComponent<CharacterController>();
         Vector3 movement = Vector3.zero;
-        controller.transform.Rotate(0, Input.GetAxis("Mouse X") * rotSpeed * 3, 0);
+        
         float horInput = Input.GetAxis("Horizontal");
         float vertInput = Input.GetAxis("Vertical");
 

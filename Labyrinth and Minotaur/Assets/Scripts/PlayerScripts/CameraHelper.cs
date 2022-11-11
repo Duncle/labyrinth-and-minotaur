@@ -4,50 +4,35 @@ using UnityEngine;
 
 public class CameraHelper : MonoBehaviour
 {
-    [SerializeField] private Transform target;
-     
-    public float rotSpeed = 1.5f;
-    public static float rotY;
-    public static float rotX;
-    private float rotYTemp;
-    private Vector3 offset;
-    public Animator playerAnimator;
+    [SerializeField] private float mouseX;
+    [SerializeField] private float mouseY;
+    [SerializeField] private float mouseSensivity;
+    [SerializeField] private float maxUp;
+    [SerializeField] private float minUp;
+    [SerializeField] private float xRotation;
+    [SerializeField] private Transform playerTransform;
 
-    
-    void Start()
+    void Awake()
     {
         Cursor.lockState = CursorLockMode.Locked;
-        rotY = transform.eulerAngles.y;
-        rotX = transform.eulerAngles.x;
-        offset = target.position - transform.position;
+        playerTransform = FindObjectOfType<CharacterController>().GetComponent<Transform>();
+
     }
     void Update()
     {
-       
-       
-        if (!playerAnimator.GetCurrentAnimatorStateInfo(0).IsName("Damage"))
-        {
-                
-        rotX += Input.GetAxis("Mouse X") * rotSpeed * 3;
-        rotY += Input.GetAxis("Mouse Y") * -2;
-
-        if (rotY >= 26)
-        {
-            rotY = 26;
-        }
-        if (rotY <= -33)
-        {
-            rotY = -33;
-        }
-        if (rotY <= 26 && rotY >= -33)
-        {
-            Quaternion rotation = Quaternion.Euler(rotY, rotX, 0);
-            transform.rotation = (rotation);
-        }
-        rotYTemp = rotY;
-
-        }
-
+        GetAxis();
+        SetMouseRotation();
     }
- 
+    void GetAxis()
+    {
+        mouseX = Input.GetAxis("Mouse X") * mouseSensivity;
+        mouseY = Input.GetAxis("Mouse Y") * mouseSensivity;
+    }
+    private void SetMouseRotation()
+    {
+        xRotation -= mouseY;
+        transform.localRotation = Quaternion.Euler(xRotation, 0, 0);
+        xRotation = Mathf.Clamp(xRotation, (maxUp ), (minUp));
+        playerTransform.Rotate(Vector3.up * mouseX);
+    }
 }
