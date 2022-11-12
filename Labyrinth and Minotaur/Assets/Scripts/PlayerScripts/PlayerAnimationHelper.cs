@@ -14,6 +14,13 @@ public class PlayerAnimationHelper : MonoBehaviour
     void Update()
     {
         CharacterController controller = GetComponent<CharacterController>();
+
+        //Атака
+        if (Input.GetMouseButtonDown(0) && !playerAnimator.GetCurrentAnimatorStateInfo(1).IsName("Attack"))
+        {
+            Debug.Log("ADS");
+            playerAnimator.SetTrigger("Attack");
+        }
         //Прыжок
         if (Input.GetButtonDown("Jump") && controller.isGrounded)
         {

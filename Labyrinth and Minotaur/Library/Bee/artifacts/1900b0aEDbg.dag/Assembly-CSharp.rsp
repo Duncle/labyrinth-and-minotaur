@@ -350,6 +350,7 @@
 "Assets/Scripts/Inventory/ItemPickUp.cs"
 "Assets/Scripts/PlayerScripts/CameraHelper.cs"
 "Assets/Scripts/PlayerScripts/PlayerAnimationHelper.cs"
+"Assets/Scripts/PlayerScripts/PlayerAttackScript.cs"
 "Assets/Scripts/PlayerScripts/PlayerController.cs"
 -langversion:9.0
 
