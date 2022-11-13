@@ -16,9 +16,9 @@ public class PlayerAnimationHelper : MonoBehaviour
         CharacterController controller = GetComponent<CharacterController>();
 
         //Атака
-        if (Input.GetMouseButtonDown(0) && !playerAnimator.GetCurrentAnimatorStateInfo(1).IsName("Attack"))
+        if (Input.GetMouseButtonDown(0) && !playerAnimator.GetCurrentAnimatorStateInfo(1).IsName("DefaultAttack"))
         {
-            Debug.Log("ADS");
+        
             playerAnimator.SetTrigger("Attack");
         }
         //Прыжок
@@ -31,7 +31,10 @@ public class PlayerAnimationHelper : MonoBehaviour
             playerAnimator.SetBool("Jump", false);
         }
       
+        if (!playerAnimator.GetCurrentAnimatorStateInfo(1).IsName("DefaultAttack"))
+        {
 
+        
         //Ходьба
         //вперед
         if (Input.GetButton("Vertical") && Input.GetAxis("Vertical") > 0 && !Input.GetButton("Horizontal") && !Input.GetKey(KeyCode.LeftShift))
@@ -205,7 +208,7 @@ public class PlayerAnimationHelper : MonoBehaviour
         {
             playerAnimator.SetBool("BackwardLeftRun", false);
         }
-        
+        }
     }
     public void GetHitAndPushToRightAnimation()
     {
