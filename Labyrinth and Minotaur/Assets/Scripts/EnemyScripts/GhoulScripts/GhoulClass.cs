@@ -9,14 +9,26 @@ public class GhoulClass : EnemyClass
     public Slider healthBar;
     private void Update()
     {
-        healthBar.value = hitPoint; 
+        healthBar.value = hitPoint;
+       
     }
     public  void TakeDamage(int weaponDamage)
     {
-        Debug.Log("B123123");
         hitPoint -= weaponDamage;
-        GetComponent<GhoulAnimationHelper>().GetHit();
+        if (hitPoint <= 0){
+            GetComponent<GhoulAnimationHelper>().Death();
+            healthBar.gameObject.SetActive(false);
+            GetComponent<Collider>().enabled = false;
+            GetComponent<Rigidbody>().isKinematic = true;
+        }
+        else
+        {
+            Debug.Log("B123123");
+            GetComponent<GhoulAnimationHelper>().GetHit();
+        }
     }
 
-     
+  
+
+
 }

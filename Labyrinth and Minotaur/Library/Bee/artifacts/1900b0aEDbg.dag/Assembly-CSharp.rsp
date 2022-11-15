@@ -344,6 +344,7 @@
 "Assets/Scripts/EnemyScripts/GhoulScripts/GhoulAnimationHelper.cs"
 "Assets/Scripts/EnemyScripts/GhoulScripts/GhoulClass.cs"
 "Assets/Scripts/EnemyScripts/GhoulScripts/GhoulLeftHandScript.cs"
+"Assets/Scripts/EnemyScripts/GhoulScripts/GhoulMoveScript.cs"
 "Assets/Scripts/EnemyScripts/GhoulScripts/GhoulRightHandScript.cs"
 "Assets/Scripts/Entities/Interactable.cs"
 "Assets/Scripts/Inventory/Inventory.cs"

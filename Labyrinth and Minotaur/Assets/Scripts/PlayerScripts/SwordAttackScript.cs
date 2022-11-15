@@ -4,13 +4,18 @@ using UnityEngine;
 
 public class SwordAttackScript : MonoBehaviour
 {
-    int swordDamage = 10;
+    [SerializeField] private Animator playerAnimator;
+    [SerializeField] private int swordDamage = 100;
     public void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Ghoul")
         {
-            Debug.Log("C123123"); 
-            other.GetComponent<GhoulClass>().TakeDamage(swordDamage );   
+            if (playerAnimator.GetCurrentAnimatorStateInfo(1).IsName("DefaultAttack")   
+                && !other.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("GetHit"))
+            {
+                other.GetComponent<GhoulClass>().TakeDamage(swordDamage);
+              
+            }
         }
     }
 }

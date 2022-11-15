@@ -11,7 +11,12 @@ public class GhoulAnimationHelper : MonoBehaviour
     }
     public void GetHit()
     {
-        Debug.Log("A123123");
-        ghoulAnimator.SetTrigger("Gethit");
+        ghoulAnimator.SetTrigger("GetHit");
+    }
+    public void Death()
+    {
+
+        ghoulAnimator.SetTrigger("Death");
+
     }
 }
