@@ -357,6 +357,7 @@
 "Assets/Scripts/PlayerScripts/PlayerAnimationHelper.cs"
 "Assets/Scripts/PlayerScripts/PlayerAttackScript.cs"
 "Assets/Scripts/PlayerScripts/PlayerController.cs"
+"Assets/Scripts/PlayerScripts/PlayerIK.cs"
 "Assets/Scripts/PlayerScripts/SwordAttackScript.cs"
 -langversion:9.0
 

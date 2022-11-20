@@ -22,7 +22,7 @@ public class PlayerAnimationHelper : MonoBehaviour
             && !playerAnimator.GetCurrentAnimatorStateInfo(1).IsName("DefaultAttack"))
         {
 
-            Debug.Log("ASD");
+         
             playerAnimator.SetTrigger("Attack");
         }
         //Прыжок

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f172ecd366e69c440ad2f7792440f2f8
+guid: c4a6316ca6c9fdc46bb89081e20406a0
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable:
@@ -701,7 +701,7 @@ ModelImporter:
     second: Crossbow
   - first:
       74: 7400000
-    second: 2Hand-Sword-GetHit-F1
+    second: GetHit
   - first:
       95: 9500000
     second: //RootNode
@@ -733,7 +733,10 @@ ModelImporter:
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'B_Spine' has translation animation that
+      will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
@@ -747,11 +750,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: 2Hand-Sword-GetHit-F1
+      name: GetHit
       takeName: Take 001
       internalID: 7400000
       firstFrame: 0
-      lastFrame: 20
+      lastFrame: 9.1
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

@@ -7,6 +7,17 @@ public class GhoulLeftHandScript : MonoBehaviour
     [SerializeField] private Animator ghoulAnimator;
     public void OnTriggerEnter(Collider other)
     {
+        if (other.tag == "Shield")
+        {
+            if (ghoulAnimator.GetCurrentAnimatorStateInfo(0).IsName("Attack1"))
+
+            {
+                Debug.Log("a");
+                ghoulAnimator.SetTrigger("LeftHandAttackInterrupts");
+               
+            }
+        }
+
         if (other.tag == "Player")
         {
             if (ghoulAnimator.GetCurrentAnimatorStateInfo(0).IsName("Attack1")

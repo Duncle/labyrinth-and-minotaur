@@ -6,11 +6,10 @@ public class GhoulMoveScript : MonoBehaviour
 {
     [SerializeField] private Collider ghoulCollider;
     [SerializeField] private bool isGrounded;
-    [SerializeField] private float rayDistance = 0.03f;
+
     [SerializeField] private float _vertSpeed;
     [SerializeField] private float gravity = -9.8f;
     [SerializeField] private float terminalVelocity = -10.0f;
-    [SerializeField] private float minFall = -1.5f;
     [SerializeField] private float ghoulLocalPositionX;
     [SerializeField] private float ghoulLocalPositionY;
     [SerializeField] private float ghoulLocalPositionZ;
@@ -31,8 +30,8 @@ public class GhoulMoveScript : MonoBehaviour
        
        
         RaycastHit hit;
-        Physics.Raycast(new Vector3(ghoulLocalPositionX,ghoulLocalPositionY+0.5f,ghoulLocalPositionZ), new Vector3(0, -0.69f, 0),out hit, 0.685f, LayerMask.GetMask("Ground"));
-     
+        Physics.Raycast(new Vector3(ghoulLocalPositionX,ghoulLocalPositionY+0.6f,ghoulLocalPositionZ), new Vector3(0, -0.6f, 0),out hit, 0.6f, LayerMask.GetMask("Ground"));
+  
         if (hit.collider != null)
         {
             isGrounded = true;
