@@ -351,6 +351,7 @@
 "Assets/Scripts/Inventory/ItemPickUp.cs"
 "Assets/Scripts/PlayerAnimationHelper.cs"
 "Assets/Scripts/PlayerController.cs"
+"Assets/Scripts/UtilScripts/CircleGraphic.cs"
 -langversion:9.0
 
 /deterministic

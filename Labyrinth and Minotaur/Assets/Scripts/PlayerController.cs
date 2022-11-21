@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    //V
     public Interactable focus;
+    //Z
     
     public float rotSpeed = 1.5f;
     private float _vertSpeed;
@@ -13,12 +15,16 @@ public class PlayerController : MonoBehaviour
     public float terminalVelocity = -10.0f;
     public float minFall = -1.5f;
 
+    //V
     private Camera _camera;
+    //Z
     
     void Start()
     {
         _vertSpeed = minFall;
+        //V
         _camera = Camera.main;
+        //Z
     }
 
     void Update()
@@ -72,6 +78,7 @@ public class PlayerController : MonoBehaviour
 
         controller.Move(movement * Time.deltaTime);
         
+        // V
         if (Input.GetMouseButtonDown(0))
         {
             Ray ray = _camera.ScreenPointToRay(Input.mousePosition);
@@ -83,6 +90,22 @@ public class PlayerController : MonoBehaviour
                 RemoveFocus();
             }
         }
+
+        if (Input.GetMouseButtonDown(1))
+        {
+            Ray ray = _camera.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hit;
+            if (Physics.Raycast(ray, out hit, 100))
+            {
+                Interactable interactable = hit.collider.GetComponent<Interactable>();
+                print("Мы кликнули взаимодействуем очень сильно");
+                if (interactable != null)
+                {
+                    SetFocus(interactable);
+                }
+            }
+        }
+        // Z
     }
     public void GetCameraRotationGromEndAnimation()
     {
@@ -90,6 +113,7 @@ public class PlayerController : MonoBehaviour
         CameraHelper.rotY  = UnityEngine.Camera.main.transform.eulerAngles.y;
     }
     
+    // V
     void SetFocus (Interactable newFocus)
     {
         if (newFocus != focus)
@@ -112,4 +136,5 @@ public class PlayerController : MonoBehaviour
 
         focus = null;
     }
+    // Z
 }
