@@ -51,7 +51,7 @@ public class GhoulMoveScript : MonoBehaviour
             }
 
         }
-        Debug.Log(isGrounded);
+        
         movement.y = _vertSpeed;
 
         movement = Vector3.ClampMagnitude(movement, 6f);

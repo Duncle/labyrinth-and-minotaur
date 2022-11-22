@@ -4,15 +4,30 @@ using UnityEngine;
 
 public class PlayerAttackScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private Animator playerAnimator;
+    public void Start()
     {
-        
+        playerAnimator = GetComponent<Animator>();
     }
-
-    // Update is called once per frame
-    void Update()
+    public void Update()
     {
-        
+         if (Input.GetMouseButton(0))
+        {
+            GetComponent<PlayerAnimationHelper>().SwordAttackAniamtion();   
+        } 
+    }
+    public void makeASwordAttack(Collider enemyCollider, int damage)
+    {
+       
+        if (enemyCollider.tag == "Ghoul")
+        {
+          
+            if (playerAnimator.GetCurrentAnimatorStateInfo(1).IsName("SwordAttack")
+                && !enemyCollider.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("GetHit"))
+            {
+                enemyCollider.GetComponent<GhoulClass>().TakeDamage(damage);
+
+            }
+        }
     }
 }

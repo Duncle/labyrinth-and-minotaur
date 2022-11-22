@@ -7,6 +7,7 @@ TagManager:
   - Enemy
   - Ghoul
   - Shield
+  - Weapon
   layers:
   - Default
   - TransparentFX

@@ -389,7 +389,7 @@ ModelImporter:
     second: root
   - first:
       74: 7400000
-    second: DefaultAttack
+    second: SwordAttack
   - first:
       95: 9500000
     second: //RootNode
@@ -423,7 +423,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: DefaultAttack
+      name: SwordAttack
       takeName: RightHand@Attack01
       internalID: 0
       firstFrame: 0

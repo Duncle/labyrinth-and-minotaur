@@ -5,35 +5,28 @@ using UnityEngine;
 public class PlayerAnimationHelper : MonoBehaviour
 {
     private Animator playerAnimator;
+    private CharacterController controller;
     void Start()
     {
         playerAnimator = GetComponent<Animator>();
+        controller = GetComponent<CharacterController>();
     }
- 
+
     // Update is called once per frame
     void Update()
     {
-        CharacterController controller = GetComponent<CharacterController>();
 
-        //Атака
-        if (Input.GetMouseButtonDown(0)
-            && !playerAnimator.GetCurrentAnimatorStateInfo(0).IsName("GetHitAndPushToRight")
-            && !playerAnimator.GetCurrentAnimatorStateInfo(0).IsName("GetHitAndPushToLeft")
-            && !playerAnimator.GetCurrentAnimatorStateInfo(1).IsName("DefaultAttack"))
-        {
 
-         
-            playerAnimator.SetTrigger("Attack");
-        }
-        //Прыжок
-        if (Input.GetButtonDown("Jump") && controller.isGrounded)
+        //Защита Щитом
+        if (Input.GetMouseButton(1))
         {
-            playerAnimator.SetBool("Jump", true);
+            GetComponent<Animator>().SetBool("Defence", true);
         }
         else
         {
-            playerAnimator.SetBool("Jump", false);
+            GetComponent<Animator>().SetBool("Defence", false);
         }
+
 
         if (!playerAnimator.GetCurrentAnimatorStateInfo(1).IsName("DefaultAttack"))
         {
@@ -214,6 +207,10 @@ public class PlayerAnimationHelper : MonoBehaviour
             }
         }
     }
+    public void MakeJump()
+    {
+        playerAnimator.SetTrigger("Jump");
+    }
     public void GetHitAndPushToRightAnimation()
     {
         playerAnimator.SetTrigger("GetHitAndPushToRight");
@@ -221,5 +218,18 @@ public class PlayerAnimationHelper : MonoBehaviour
     public void GetHitAndPushToLeftAnimation()
     {
         playerAnimator.SetTrigger("GetHitAndPushToLeft");
+    }
+    public void SwordAttackAniamtion()
+    {
+        if (Input.GetMouseButtonDown(0)
+           && !playerAnimator.GetCurrentAnimatorStateInfo(0).IsName("GetHitAndPushToRight")
+           && !playerAnimator.GetCurrentAnimatorStateInfo(0).IsName("GetHitAndPushToLeft")
+           && !playerAnimator.GetCurrentAnimatorStateInfo(0).IsName("Jump")
+           && !playerAnimator.GetCurrentAnimatorStateInfo(1).IsName("SwordAttack")
+           && !playerAnimator.GetCurrentAnimatorStateInfo(2).IsName("ShieldDefence"))
+        {
+
+            playerAnimator.SetTrigger("SwordAttack");
+        }
     }
 }

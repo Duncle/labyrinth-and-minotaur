@@ -357,8 +357,11 @@
 "Assets/Scripts/PlayerScripts/PlayerAnimationHelper.cs"
 "Assets/Scripts/PlayerScripts/PlayerAttackScript.cs"
 "Assets/Scripts/PlayerScripts/PlayerController.cs"
+"Assets/Scripts/PlayerScripts/PlayerDefenseScript.cs"
 "Assets/Scripts/PlayerScripts/PlayerIK.cs"
-"Assets/Scripts/PlayerScripts/SwordAttackScript.cs"
+"Assets/Scripts/PlayerScripts/VladScript.cs"
+"Assets/Scripts/UtilScripts/CircleGraphic.cs"
+"Assets/Scripts/WeaponScripts/AncientSwordScript.cs"
 -langversion:9.0
 
 /deterministic

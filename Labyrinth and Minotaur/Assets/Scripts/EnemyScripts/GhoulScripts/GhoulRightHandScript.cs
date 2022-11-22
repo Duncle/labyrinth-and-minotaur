@@ -5,14 +5,16 @@ using UnityEngine;
 public class GhoulRightHandScript : MonoBehaviour
 {
     [SerializeField] private Animator ghoulAnimator;
+    [SerializeField] private Animator playerAnimator;
+    
     public void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Shield")
         {
-            if (ghoulAnimator.GetCurrentAnimatorStateInfo(0).IsName("Attack1"))
+            if (ghoulAnimator.GetCurrentAnimatorStateInfo(0).IsName("Attack1")&& playerAnimator.GetCurrentAnimatorStateInfo(2).IsName("ShieldDefence"))
 
             {
-               
+         
                 ghoulAnimator.SetTrigger("RightHandAttackInterrupts");
                 
             }
