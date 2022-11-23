@@ -5,7 +5,8 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Item", menuName = "Inventory/Item")]
 public class Item : ScriptableObject {
     public new string name = "New Item";
-    public new string description = "Describe an item";
+    //was new before the description
+    public string description = "Describe an item";
     public Sprite icon = null;
     public bool isDefaultItem = false;
 

@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class GhoulClass : EnemyClass
 {
     [SerializeField] private int hitPoint = 100;
-    [SerializeField] private int staminaPoint = 100;
+    //[SerializeField] private int staminaPoint = 100;
     [SerializeField] private Slider healthBar;
     [SerializeField] private Animator ghoulAnimator;
     public void Start()

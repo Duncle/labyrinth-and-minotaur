@@ -4,9 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    
-
-    [SerializeField] private float rotSpeed = 1.5f;
+    //[SerializeField] private float rotSpeed = 1.5f;
     [SerializeField] private float _vertSpeed;
     [SerializeField] private float jumpSpeed = 15.0f;
     [SerializeField] private float gravity = -9.8f;
