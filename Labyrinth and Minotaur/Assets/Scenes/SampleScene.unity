@@ -1337,7 +1337,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 1af536b5120c99f4fba9fdc6110cd98c, type: 3}
     - target: {fileID: 4594660890310256982, guid: d779958265c8daf48ae22f2be1dcd22f, type: 3}
       propertyPath: m_TagString
-      value: Ghoul
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 4715815864369226172, guid: d779958265c8daf48ae22f2be1dcd22f, type: 3}
       propertyPath: m_AnchorMax.y
@@ -2049,7 +2049,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 1af536b5120c99f4fba9fdc6110cd98c, type: 3}
     - target: {fileID: 7983915106956826392, guid: d779958265c8daf48ae22f2be1dcd22f, type: 3}
       propertyPath: m_TagString
-      value: Ghoul
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 8111354005390588290, guid: d779958265c8daf48ae22f2be1dcd22f, type: 3}
       propertyPath: m_TagString
