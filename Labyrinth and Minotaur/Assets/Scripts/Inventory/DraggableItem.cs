@@ -21,7 +21,7 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
             transform.SetAsLastSibling();
             image.raycastTarget = false;
             
-            print(parentBeforeDrag.tag);
+            //print(parentBeforeDrag.tag);
             Transform newCurrentItemImg = Object.Instantiate(transform, transform, true);
             newCurrentItemImg.GetComponent<Image>().sprite = null;
             newCurrentItemImg.SetParent(parentBeforeDrag);
@@ -35,13 +35,23 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
     
         public void OnEndDrag(PointerEventData eventData)
         {
-            
-            transform.SetParent(parentAfterDrag);
-            
-            image.raycastTarget = true;
-            if (parentAfterDrag.childCount > 1)
+            if (parentAfterDrag.GetChild(0).GetComponent<Image>().sprite == null)
             {
-                GameObject.Destroy(parentAfterDrag.GetChild(0).gameObject);
+                transform.SetParent(parentAfterDrag);
+                image.raycastTarget = true;
+                if (parentAfterDrag.childCount > 1)
+                {
+                    GameObject.Destroy(parentAfterDrag.GetChild(0).gameObject);
+                }
+            }
+            else
+            {
+                transform.SetParent(parentBeforeDrag);
+                image.raycastTarget = true;
+                if (parentBeforeDrag.childCount > 1)
+                {
+                    GameObject.Destroy(parentBeforeDrag.GetChild(0).gameObject);
+                }
             }
         }
 }
