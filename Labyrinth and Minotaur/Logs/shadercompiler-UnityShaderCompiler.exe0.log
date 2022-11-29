@@ -1,3 +1,4 @@
 Base path: 'Q:/SSD Library/Programms/Unity/Unity HUB/2021.3.13f1/Editor/Data', plugins path 'Q:/SSD Library/Programms/Unity/Unity HUB/2021.3.13f1/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
 
+Cmd: shutdown
