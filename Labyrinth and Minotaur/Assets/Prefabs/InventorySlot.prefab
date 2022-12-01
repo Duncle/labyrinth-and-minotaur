@@ -356,5 +356,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   image: {fileID: 0}
+  armorImg: {fileID: 21300000, guid: 5c0fe5573e6f6ab4698aa5faf9e48e2a, type: 3}
+  weaponImg: {fileID: 21300000, guid: 50fce0bf921a27e46aec87b3e51ba236, type: 3}
   parentAfterDrag: {fileID: 0}
   parentBeforeDrag: {fileID: 0}

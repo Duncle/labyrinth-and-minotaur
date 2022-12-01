@@ -8,6 +8,10 @@ TagManager:
   - Ghoul
   - Shield
   - Weapon
+  - EquipSlotImg
+  - EquipSlot
+  - ArmorSlot
+  - WeaponSlot
   layers:
   - Default
   - TransparentFX
