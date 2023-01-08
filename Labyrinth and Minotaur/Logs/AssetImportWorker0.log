@@ -15,7 +15,7 @@ Q:/SSD Library/Creative Studio/Programming/GameDev/labyrinth-and-minotaur/Labyri
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63982
+53386
 Successfully changed project path to: Q:/SSD Library/Creative Studio/Programming/GameDev/labyrinth-and-minotaur/Labyrinth and Minotaur
 Q:/SSD Library/Creative Studio/Programming/GameDev/labyrinth-and-minotaur/Labyrinth and Minotaur
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ Q:/SSD Library/Creative Studio/Programming/GameDev/labyrinth-and-minotaur/Labyri
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 31.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 41.92 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.13f1 (9e7d58001ecf)
 [Subsystems] Discovering subsystems at path Q:/SSD Library/Programms/Unity/Unity HUB/2021.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -63,96 +63,96 @@ Initialize mono
 Mono path[0] = 'Q:/SSD Library/Programms/Unity/Unity HUB/2021.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'Q:/SSD Library/Programms/Unity/Unity HUB/2021.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'Q:/SSD Library/Programms/Unity/Unity HUB/2021.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56488
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: Q:/SSD Library/Programms/Unity/Unity HUB/2021.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: Q:/SSD Library/Programms/Unity/Unity HUB/2021.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: Q:/SSD Library/Programms/Unity/Unity HUB/2021.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: Q:/SSD Library/Programms/Unity/Unity HUB/2021.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.009956 seconds.
+Registered in 0.007077 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 37.39 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 34.24 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.665 seconds
+- Completed reload, in  0.927 seconds
 Domain Reload Profiling:
-	ReloadAssembly (665ms)
-		BeginReloadAssembly (102ms)
+	ReloadAssembly (928ms)
+		BeginReloadAssembly (117ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (454ms)
-			LoadAssemblies (104ms)
+		EndReloadAssembly (660ms)
+			LoadAssemblies (119ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (115ms)
+			SetupTypeCache (135ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (264ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (432ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (68ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (37ms)
+				InitializePlatformSupportModulesInManaged (65ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (34ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (112ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (121ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003996 seconds.
+Registered in 0.006089 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.074 seconds
+- Completed reload, in  2.358 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1075ms)
-		BeginReloadAssembly (245ms)
+	ReloadAssembly (2359ms)
+		BeginReloadAssembly (413ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (122ms)
-		EndReloadAssembly (688ms)
-			LoadAssemblies (104ms)
+			CreateAndSetChildDomain (126ms)
+		EndReloadAssembly (1544ms)
+			LoadAssemblies (303ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (220ms)
+			SetupTypeCache (785ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (303ms)
+			RebuildScriptCaches (98ms)
+			SetupLoadedEditorAssemblies (473ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
+				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (47ms)
-				ProcessInitializeOnLoadAttributes (207ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (330ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1682 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 19 unused Assets / (49.7 KB). Loaded Objects now: 2153.
-Memory consumption went from 73.6 MB to 73.6 MB.
-Total: 2.264800 ms (FindLiveObjects: 0.138800 ms CreateObjectMapping: 0.063900 ms MarkObjects: 1.966700 ms  DeleteObjects: 0.094700 ms)
+Memory consumption went from 73.7 MB to 73.6 MB.
+Total: 2.496800 ms (FindLiveObjects: 0.141800 ms CreateObjectMapping: 0.073100 ms MarkObjects: 2.045800 ms  DeleteObjects: 0.235200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,80 +167,1041 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 37732.985074 seconds.
-  path: Assets/Scripts/WeaponScripts/AncientSwordScript.cs
-  artifactKey: Guid(47e350049de016443bf84e19c76d3fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/WeaponScripts/AncientSwordScript.cs using Guid(47e350049de016443bf84e19c76d3fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc3c90a7a7ce3e72a5d1b79836f04578') in 0.033757 seconds 
+  Time since last request: 42445.848352 seconds.
+  path: Assets/Prefabs/AncientSword.prefab
+  artifactKey: Guid(ed07045c34d4fae4a854773aec4f91e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/AncientSword.prefab using Guid(ed07045c34d4fae4a854773aec4f91e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ed490d593fbc1e3623fb81e003f138c6') in 0.203918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scripts/Classes/PlayerClass.cs
+  artifactKey: Guid(b06456747366a3949af6723ccaf00208) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Classes/PlayerClass.cs using Guid(b06456747366a3949af6723ccaf00208) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6681353477a326b95792da0769b268f3') in 0.023627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Creatures/_GhoulZombie/GhoulMaterial.mat
+  artifactKey: Guid(7e013ff2514571042a1ac03d3b6f9eef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Creatures/_GhoulZombie/GhoulMaterial.mat using Guid(7e013ff2514571042a1ac03d3b6f9eef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3fdfef2d585d7cfd7de221f117ec44b7') in 0.029602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scripts/PlayerScripts/PlayerIK.cs
+  artifactKey: Guid(12f6bc62bc366984ab5e43f0853534be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/PlayerScripts/PlayerIK.cs using Guid(12f6bc62bc366984ab5e43f0853534be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dbac16a920a4ef37a7fe061d90c9822e') in 0.021296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Textures/Player/Spartan_Low_mat_weapon_AlbedoTransparency.tga
+  artifactKey: Guid(dc52a853882681e4bb97ecfdfa2bd19c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Player/Spartan_Low_mat_weapon_AlbedoTransparency.tga using Guid(dc52a853882681e4bb97ecfdfa2bd19c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '86a4b40a8bef3d819f0c189fe73471c4') in 0.083168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Creatures/_GhoulZombie/RightHandAttackInterrupts.anim
+  artifactKey: Guid(e8dc73be4a4fc7a4c9e9f7c15d75b6c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Creatures/_GhoulZombie/RightHandAttackInterrupts.anim using Guid(e8dc73be4a4fc7a4c9e9f7c15d75b6c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fda44457c323fbb505ac748924251baf') in 0.029105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Creatures/_GhoulZombie/Black.mat
+  artifactKey: Guid(5cd795b281bbe8c4b9a49869782d03ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Creatures/_GhoulZombie/Black.mat using Guid(5cd795b281bbe8c4b9a49869782d03ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '25671fdca78adf3fbde886d97ab98a8e') in 0.038703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Textures/Images/Sword.png
+  artifactKey: Guid(39b7e921b9a6a5542bc04ca0f95ba06a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Images/Sword.png using Guid(39b7e921b9a6a5542bc04ca0f95ba06a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '514d78775cf98acedadbf74ec6718d2f') in 0.076420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Creatures/_GhoulZombie/Ghoul@Animations.fbx
+  artifactKey: Guid(ce65fa103f0e84b4289374b2a4bf93f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Creatures/_GhoulZombie/Ghoul@Animations.fbx using Guid(ce65fa103f0e84b4289374b2a4bf93f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9cf8a28415370a88bb08815aa53ca0e1') in 0.268014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Animations/PlayerAnimatios/2Hand-Sword/ShieldDefence.anim
+  artifactKey: Guid(7d87d1a87731c0248a5f79fefc287057) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/PlayerAnimatios/2Hand-Sword/ShieldDefence.anim using Guid(7d87d1a87731c0248a5f79fefc287057) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '33fbb49d1127b2a58bfe0094bbc43182') in 0.051892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scripts/PlayerScripts/InteractionController.cs
+  artifactKey: Guid(e3ed36477a365a548aac87418aa1595c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/PlayerScripts/InteractionController.cs using Guid(e3ed36477a365a548aac87418aa1595c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0db978daba5bf6da7b1a007da8c3138f') in 0.007566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/123.mat
+  artifactKey: Guid(b22125fee8027d343a2f37ec80751bba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/123.mat using Guid(b22125fee8027d343a2f37ec80751bba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1faf103d4182ea047ed12d869ac7321a') in 0.007652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Temp/Inventory.prefab
+  artifactKey: Guid(d779958265c8daf48ae22f2be1dcd22f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Temp/Inventory.prefab using Guid(d779958265c8daf48ae22f2be1dcd22f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f5167a7f2f7edf105729795de2b60d26') in 0.037266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scripts/Inventory/InventorySlot.cs
+  artifactKey: Guid(4a9768df1323551478b7098fa5e618c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Inventory/InventorySlot.cs using Guid(4a9768df1323551478b7098fa5e618c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c222bd90f47cafcbda6003446ba67ecf') in 0.013073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Animations/PlayerAnimatios/Idles/BasicMotions@Idle01.fbx
+  artifactKey: Guid(a3422ad278cd9a94aa3da8e6bff9deea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/PlayerAnimatios/Idles/BasicMotions@Idle01.fbx using Guid(a3422ad278cd9a94aa3da8e6bff9deea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3c67eaa09ab1013a90c7c1f25dad0b9b') in 0.054196 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/Scripts/WeaponScripts
-  artifactKey: Guid(ff053de1731375a4db8864af3852218e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/WeaponScripts using Guid(ff053de1731375a4db8864af3852218e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '987244b755ecdf0cb36deb6ab6eb212b') in 0.011337 seconds 
+  path: Assets/Creatures/_GhoulZombie/PPS_Ghoul.asset
+  artifactKey: Guid(01ea3b62903a0b4449c9b786c0ca6b8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Creatures/_GhoulZombie/PPS_Ghoul.asset using Guid(01ea3b62903a0b4449c9b786c0ca6b8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dfcc3bc10d5703f8af13604710499ae6') in 0.009228 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 102.723088 seconds.
-  path: Assets/Scripts/WeaponScripts/Weapon.cs
-  artifactKey: Guid(0141b605fb3a14b438c54fe8f835bb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/WeaponScripts/Weapon.cs using Guid(0141b605fb3a14b438c54fe8f835bb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2698eec8433e7724324c4907dbe1d05b') in 0.004539 seconds 
+  Time since last request: 0.000018 seconds.
+  path: Assets/Animations/PlayerAnimatios/RPG-Character@2Hand-Sword-Sheath-Back-Unarmed.FBX
+  artifactKey: Guid(59f94dc7b1c108b44ba2160d3be80e66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/PlayerAnimatios/RPG-Character@2Hand-Sword-Sheath-Back-Unarmed.FBX using Guid(59f94dc7b1c108b44ba2160d3be80e66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '155fd44009ff15de650e50242b8bd8f2') in 0.044280 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 56.115006 seconds.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Materials/Interactable.mat
+  artifactKey: Guid(8b57123e5e6567947b0100d748c0da6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/Interactable.mat using Guid(8b57123e5e6567947b0100d748c0da6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '58d85a2f229b03ef9fec2c5059631e5f') in 0.008407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Materials/thumb_37303.mat
+  artifactKey: Guid(31d070607d90bf74cbf0539eca9e530c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/thumb_37303.mat using Guid(31d070607d90bf74cbf0539eca9e530c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '071d5c8ec05527d8fcdff1e3eabb5aaf') in 0.014417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Creatures/Spider/Textures/14 - Default_Flattened_Specular.png
+  artifactKey: Guid(5d43d3478f632364ebcfd8d2b82e5f40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Creatures/Spider/Textures/14 - Default_Flattened_Specular.png using Guid(5d43d3478f632364ebcfd8d2b82e5f40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ace7554ae55f82e622b4137f225a3877') in 0.020592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Animations/PlayerAnimatios/Movement/BasicMotions@Strafe01.fbx
+  artifactKey: Guid(965e8fa8f0644d741bc9baca0a3954fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/PlayerAnimatios/Movement/BasicMotions@Strafe01.fbx using Guid(965e8fa8f0644d741bc9baca0a3954fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '32541437fbd3a8e37bbb73f1c6be411b') in 0.041412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000680 seconds.
+  path: Assets/Animations/PlayerAnimatios/Movement/BasicMotions@Walk01.fbx
+  artifactKey: Guid(bd1c2e9064da28e4fb0fe4a3f6ff4e33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/PlayerAnimatios/Movement/BasicMotions@Walk01.fbx using Guid(bd1c2e9064da28e4fb0fe4a3f6ff4e33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2948e111157e722ea59f93721073d0bf') in 0.112087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000866 seconds.
+  path: Assets/Resources/BasicSwordPack_version 1.0/Materials/ancientsword_diff.mat
+  artifactKey: Guid(7c2235abd48a5704db5eb34de65facc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/BasicSwordPack_version 1.0/Materials/ancientsword_diff.mat using Guid(7c2235abd48a5704db5eb34de65facc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4edd0aaa9b9a03f496e2f82a52193e7e') in 0.008900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Animations/PlayerAnimatios/Movement/BasicMotions@Run01.fbx
+  artifactKey: Guid(154a724602422044c91070a5f3c67c11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/PlayerAnimatios/Movement/BasicMotions@Run01.fbx using Guid(154a724602422044c91070a5f3c67c11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c64b2535839f2bd284440620ba95c2d7') in 0.110587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
   path: Assets/Scripts/Inventory/Item.cs
-  artifactKey: Guid(f0eca206e736d4b4288788c93043a7d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Inventory/Item.cs using Guid(f0eca206e736d4b4288788c93043a7d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dcd8f76fb2082fdd45873f0dd515de6') in 0.003726 seconds 
+  artifactKey: Guid(f0eca206e736d4b4288788c93043a7d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Inventory/Item.cs using Guid(f0eca206e736d4b4288788c93043a7d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'da64d6ca6d7e27632565b06aae47dd4a') in 0.008286 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.332539 seconds.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resources/playerDefenceMask.mask
+  artifactKey: Guid(49191cec5eccce24eb0ddab2eb24c34c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/playerDefenceMask.mask using Guid(49191cec5eccce24eb0ddab2eb24c34c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f3500fb5779ade8dee098b1f503dd6cc') in 0.009662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Textures/Player/Spartan_Low_mat_armor_MetallicSmoothness.tga
+  artifactKey: Guid(7e865559d6a142b4ca07ceb0dc088911) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Player/Spartan_Low_mat_armor_MetallicSmoothness.tga using Guid(7e865559d6a142b4ca07ceb0dc088911) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '843f7479cf823ec7afaebeccf366f6be') in 0.024497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Scripts/PlayerScripts/PlayerAttackScript.cs
+  artifactKey: Guid(fcccc003d9588674db0dd71069554bfb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/PlayerScripts/PlayerAttackScript.cs using Guid(fcccc003d9588674db0dd71069554bfb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '466d8da3d4073e0380f9a02a589a5667') in 0.009352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Animator Controllers/PlayerController.controller
+  artifactKey: Guid(0afcadd3d2444524baf38d75f86774a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animator Controllers/PlayerController.controller using Guid(0afcadd3d2444524baf38d75f86774a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '66427e75a1898232882e7e02a3fc9f54') in 0.089811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Fonts/PROXIMANOVA-REGULAR.TTF
+  artifactKey: Guid(9b27c3b1194f50149a7e90d5237ddef9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fonts/PROXIMANOVA-REGULAR.TTF using Guid(9b27c3b1194f50149a7e90d5237ddef9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8be669b9166b2c6d1a2cd1cc081e97f9') in 0.027487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scripts/PlayerScripts/PlayerController.cs
+  artifactKey: Guid(f2f65142e3988654c9da7c2c0c3a6848) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/PlayerScripts/PlayerController.cs using Guid(f2f65142e3988654c9da7c2c0c3a6848) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f83aaf65cb9027a7815e4d0794f2c8f0') in 0.014679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Animations/PlayerAnimatios/2Hand-Sword/GetHitAndPushToRight.FBX
+  artifactKey: Guid(0dd762bba3f94304ba04bda41e983fd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/PlayerAnimatios/2Hand-Sword/GetHitAndPushToRight.FBX using Guid(0dd762bba3f94304ba04bda41e983fd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3e8bd32b97ac768d44737d9b5f0c1865') in 0.038556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/BasicSwordPack_version 1.0/Models/claymore.FBX
+  artifactKey: Guid(7edcba36fa3d68a4f800ee7598e69be0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/BasicSwordPack_version 1.0/Models/claymore.FBX using Guid(7edcba36fa3d68a4f800ee7598e69be0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9057873e47ac1745d865de5d9a6cb19e') in 0.019530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Resources/BasicSwordPack_version 1.0/Materials/claymore_diff.mat
+  artifactKey: Guid(5f6d6426ea031ff489e41bc6b1b07de3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/BasicSwordPack_version 1.0/Materials/claymore_diff.mat using Guid(5f6d6426ea031ff489e41bc6b1b07de3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1daf2da1409bdf6c5622749752ddcfd3') in 0.021032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Materials/Eye_material.mat
+  artifactKey: Guid(2dca14499d44a1d44a8210f54f8dec7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/Eye_material.mat using Guid(2dca14499d44a1d44a8210f54f8dec7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9415292e11e9d159789c8b1cd91fd9dc') in 0.011156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/BasicSwordPack_version 1.0/Materials/spartan_diff.mat
+  artifactKey: Guid(4ae2246802153674d8957e526073be93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/BasicSwordPack_version 1.0/Materials/spartan_diff.mat using Guid(4ae2246802153674d8957e526073be93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ca186b8cef4feb32d4e411ec0d83aa0f') in 0.013985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/BasicSwordPack_version 1.0/Models/broadsword2.FBX
+  artifactKey: Guid(04d68825615692142b3b7c6468f86cd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/BasicSwordPack_version 1.0/Models/broadsword2.FBX using Guid(04d68825615692142b3b7c6468f86cd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c46306b002355db4e71097eca5476d38') in 0.032774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fonts/PROXIMANOVA-BLACK.TTF
+  artifactKey: Guid(a619aaeaadb8a94449a8887c7081590b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fonts/PROXIMANOVA-BLACK.TTF using Guid(a619aaeaadb8a94449a8887c7081590b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '858a781a0225ef8650d4e272ab101dd2') in 0.014019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Textures/Player/thumb_37303.jpg
+  artifactKey: Guid(37efad786c5b73e4db3809681b8f7814) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Player/thumb_37303.jpg using Guid(37efad786c5b73e4db3809681b8f7814) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '76a6498ea761422f4a2c1b7b2c946e6c') in 0.020573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scripts/WeaponScripts/AncientSwordScript.cs
+  artifactKey: Guid(47e350049de016443bf84e19c76d3fe0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/WeaponScripts/AncientSwordScript.cs using Guid(47e350049de016443bf84e19c76d3fe0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e7ee170e06fb7a849776fe05fdb281e1') in 0.010611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Creatures/_GhoulZombie/Ghoul_Volume4_emissive.png
+  artifactKey: Guid(d5f1f1cb4a703a044a11cf51d65faa5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Creatures/_GhoulZombie/Ghoul_Volume4_emissive.png using Guid(d5f1f1cb4a703a044a11cf51d65faa5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2f718662747ced7fd8aad35e6442fa0f') in 0.035504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/BasicSwordPack_version 1.0/Materials/broadsword1_diff.mat
+  artifactKey: Guid(dff5646212f9a3b4a992878e460a5d36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/BasicSwordPack_version 1.0/Materials/broadsword1_diff.mat using Guid(dff5646212f9a3b4a992878e460a5d36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8a8722dffe79dfcd2a53d02fdc5ff30e') in 0.024646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Temp/Bust_1.png
+  artifactKey: Guid(8f1f636272c4a16458101945fd80fd34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Temp/Bust_1.png using Guid(8f1f636272c4a16458101945fd80fd34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3a822d6b4816aa3db0dcaf5209ac5f98') in 0.020190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7649da183c22c3685a6c8b4765d24969') in 0.006608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scripts/Inventory/DraggableItem.cs
+  artifactKey: Guid(e769f7db214d08f47aa80823a13d0938) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Inventory/DraggableItem.cs using Guid(e769f7db214d08f47aa80823a13d0938) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '299e23f4292e90d8bd2f11c0248e77ac') in 0.021517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Materials/SwordMaterial.mat
+  artifactKey: Guid(e3cfe21cc7995cb42ba9f2216538d3dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/SwordMaterial.mat using Guid(e3cfe21cc7995cb42ba9f2216538d3dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '11f1eb3c7c358fe348106b0f9dc2ffd9') in 0.008767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Textures/Player/Spartan_Low_mat_weapon_Normal.tga
+  artifactKey: Guid(7ff4f753a7e6bad49a7af51efb83acc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Player/Spartan_Low_mat_weapon_Normal.tga using Guid(7ff4f753a7e6bad49a7af51efb83acc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a68028c4339ce4554065f003d62d263e') in 0.044555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Creatures/_GhoulZombie/Ghoul_Volume4_nmap.png
+  artifactKey: Guid(a2d6e635b41117a4a95cf5f6b465717a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Creatures/_GhoulZombie/Ghoul_Volume4_nmap.png using Guid(a2d6e635b41117a4a95cf5f6b465717a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '75391822a79d1079e042b44dab76d8d7') in 0.061259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Textures/Images/Ring.png
+  artifactKey: Guid(9f5083c9db50513408453fcfd1e52f21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Images/Ring.png using Guid(9f5083c9db50513408453fcfd1e52f21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '82ca850fa5ea5f0600f4729079a6f919') in 0.023187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000949 seconds.
+  path: Assets/Scripts/Classes/Weapon.cs
+  artifactKey: Guid(d70ca4bb28445e0448ef550579936596) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Classes/Weapon.cs using Guid(d70ca4bb28445e0448ef550579936596) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '16cecf2b52cfde3f633c52e9ad2bb7e6') in 0.014086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefabs/Equip Slot.prefab
+  artifactKey: Guid(f972880658592e24ba67362c11f51a5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Equip Slot.prefab using Guid(f972880658592e24ba67362c11f51a5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cea1d46423c3675cf9e1414684643999') in 0.032637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/BasicSwordPack_version 1.0/Models/greatsword.FBX
+  artifactKey: Guid(6486d11ec1b7189428d44b47afb6adbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/BasicSwordPack_version 1.0/Models/greatsword.FBX using Guid(6486d11ec1b7189428d44b47afb6adbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f40bb178e28c5d2c05dd3f062376ac68') in 0.035592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001154 seconds.
+  path: Assets/Resources/GreekPack1Lite/Models/greek_wall_2_window.fbx
+  artifactKey: Guid(bdae47c1ddf3049358f11421fa3be74b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/GreekPack1Lite/Models/greek_wall_2_window.fbx using Guid(bdae47c1ddf3049358f11421fa3be74b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b89c59c8b5403ea01100a7ca69075b35') in 0.029820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/GreekPack1Lite/Models/greek_wall_divider_1_corner.fbx
+  artifactKey: Guid(1ce29e0fa80ac4312a9837582ffebb90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/GreekPack1Lite/Models/greek_wall_divider_1_corner.fbx using Guid(1ce29e0fa80ac4312a9837582ffebb90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6ceb3ebb7d001fb657e4a4f1ba5afc8e') in 0.037549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000665 seconds.
+  path: Assets/Resources/BasicSwordPack_version 1.0/Models/katana.FBX
+  artifactKey: Guid(b9a472a7b2e669d458f005d8d71e4c2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/BasicSwordPack_version 1.0/Models/katana.FBX using Guid(b9a472a7b2e669d458f005d8d71e4c2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '560dd4e8d81bf9588bde1347da797e9a') in 0.030301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/GreekPack1Lite/Models/greek_floor_stone_1.fbx
+  artifactKey: Guid(69eb944f6a0da40f7b2dedf645a16d6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/GreekPack1Lite/Models/greek_floor_stone_1.fbx using Guid(69eb944f6a0da40f7b2dedf645a16d6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9bb20dda0fc05485cc80e39357c73e20') in 0.035410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/GreekPack1Lite/Models/greek_wall_2_door.fbx
+  artifactKey: Guid(24649b3c37e4a491abf8ef731ffbd5df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/GreekPack1Lite/Models/greek_wall_2_door.fbx using Guid(24649b3c37e4a491abf8ef731ffbd5df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '181f30de97c24d2c27428879a597f03c') in 0.021464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Fonts/PROXIMANOVA-LIGHT.TTF
+  artifactKey: Guid(d979d448a6558414791d5786bc794dbe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fonts/PROXIMANOVA-LIGHT.TTF using Guid(d979d448a6558414791d5786bc794dbe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8093e21c024bab79ddda76e97addf56d') in 0.027677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002105 seconds.
+  path: Assets/Resources/playerAtackMask.mask
+  artifactKey: Guid(a4298846bc38a4e4b98f636bcf834898) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/playerAtackMask.mask using Guid(a4298846bc38a4e4b98f636bcf834898) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dd1363e2303e9f2ace79e3f54462237d') in 0.019066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000604 seconds.
+  path: Assets/Creatures/_GhoulZombie/Ghoul_Volume4_color.png
+  artifactKey: Guid(7307144979bf7df459af1937d7a73ace) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Creatures/_GhoulZombie/Ghoul_Volume4_color.png using Guid(7307144979bf7df459af1937d7a73ace) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ec72859546ca9fb62690c0929a5a3134') in 0.039329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Creatures/Spider/PC_Spider.fbx
+  artifactKey: Guid(281033747104b9d44ab287a43643c1ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Creatures/Spider/PC_Spider.fbx using Guid(281033747104b9d44ab287a43643c1ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f4fefb3fe4c72b1d08348870fa29c12') in 0.078343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scripts/UtilScripts/CircleGraphic.cs
+  artifactKey: Guid(0b90b1b29dd574148913fd9cd2b8764e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/UtilScripts/CircleGraphic.cs using Guid(0b90b1b29dd574148913fd9cd2b8764e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '87f33c73f5ebd52668e103752912eade') in 0.033268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Creatures/_GhoulZombie/Ghoul.prefab
+  artifactKey: Guid(227ee07e9e5b7914ba8fbb8f430be9a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Creatures/_GhoulZombie/Ghoul.prefab using Guid(227ee07e9e5b7914ba8fbb8f430be9a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c4af7492fceb2bef040d5656c02f565a') in 0.046329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Creatures/_GhoulZombie/GhoulTakeDamage.FBX
+  artifactKey: Guid(c4a6316ca6c9fdc46bb89081e20406a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Creatures/_GhoulZombie/GhoulTakeDamage.FBX using Guid(c4a6316ca6c9fdc46bb89081e20406a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '062fc8fc892d7d3ee97d5fec3bd63823') in 0.054846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Resources/Shields/Textures/Shield_SpecularSmoothness.png
+  artifactKey: Guid(3f3753212bed7fb4c84dfb5f70bd2f1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Shields/Textures/Shield_SpecularSmoothness.png using Guid(3f3753212bed7fb4c84dfb5f70bd2f1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cfe68d3aeaaff8ed03f775fdaeda1aa9') in 0.063968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Scripts/EnemyScripts/GhoulScripts/GhoulLeftHandScript.cs
+  artifactKey: Guid(6a69340eb7f172149af6cb384a15d94f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/EnemyScripts/GhoulScripts/GhoulLeftHandScript.cs using Guid(6a69340eb7f172149af6cb384a15d94f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'da2fb2cbc68e550f9cbb9d1654ad2205') in 0.013525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/Shields/Textures/Shield_Albedo_Green.png
+  artifactKey: Guid(a44e404b1db2277489d2c5b5d82b9aea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Shields/Textures/Shield_Albedo_Green.png using Guid(a44e404b1db2277489d2c5b5d82b9aea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '57be05aab38a4a984b9935e16d478ec9') in 0.062361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/Shields/Materials/ShieldBlue.mat
+  artifactKey: Guid(2a0754b6b59ba264b95bc0adea64c72a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Shields/Materials/ShieldBlue.mat using Guid(2a0754b6b59ba264b95bc0adea64c72a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '61bd985094f54288776fe4f102fa8d55') in 0.055535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Resources/Shields/Materials/ShieldBlack.mat
+  artifactKey: Guid(a368927146df1cc408352ecee2645532) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Shields/Materials/ShieldBlack.mat using Guid(a368927146df1cc408352ecee2645532) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '77e0c6c1f1e5376ab1681fa539e32da6') in 0.065209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/Shields/Scene/Shield_Scene.unity
+  artifactKey: Guid(9808f503006e85944bd8d84308963925) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Shields/Scene/Shield_Scene.unity using Guid(9808f503006e85944bd8d84308963925) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '916e17a67ecfe051b2e43828e0376e7b') in 0.015590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/Shields/Textures/Shield_Albedo_Yellow.png
+  artifactKey: Guid(cf6ba9e6ade7e444097aebf3044f10df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Shields/Textures/Shield_Albedo_Yellow.png using Guid(cf6ba9e6ade7e444097aebf3044f10df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dd896ba355b421108c8a53beae19160d') in 0.049173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008135 seconds.
+  path: Assets/Resources/Shields/Textures/Shield_Normal.png
+  artifactKey: Guid(a99d37d546231684e96ca27363578d3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Shields/Textures/Shield_Normal.png using Guid(a99d37d546231684e96ca27363578d3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '648f81df2f25351c5dd9c3f27efe2c79') in 0.049056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fonts/PROXIMANOVA-BOLD.TTF
+  artifactKey: Guid(5f2cff567fb8af540b79bfb1e87f8468) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fonts/PROXIMANOVA-BOLD.TTF using Guid(5f2cff567fb8af540b79bfb1e87f8468) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8b6170ad7520b868bad5fda5183fee1b') in 0.030319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Animations/Knock Out.anim
+  artifactKey: Guid(470a8d904169f5a41ae30e73e3684352) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/Knock Out.anim using Guid(470a8d904169f5a41ae30e73e3684352) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bab746e92b71c15d8653ab4fc60a8161') in 0.061297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Temp/Sword and Shield Pack/FBX/Sword and Shield Animations.fbx
+  artifactKey: Guid(33012e8e8b4934b4b8cf34ee4d541068) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Temp/Sword and Shield Pack/FBX/Sword and Shield Animations.fbx using Guid(33012e8e8b4934b4b8cf34ee4d541068) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dedc16167678db583f1ff8fc0fff8fdd') in 0.394251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000538 seconds.
+  path: Assets/Resources/GreekPack1Lite/README.txt
+  artifactKey: Guid(6d73433e4bd674552a662e0aa44c6351) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/GreekPack1Lite/README.txt using Guid(6d73433e4bd674552a662e0aa44c6351) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ebb586d243d8a5c8e1ce6ad9dce71f4e') in 0.036552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scripts/LookAtCameraScript.cs
+  artifactKey: Guid(2d1c015f8b197a2438d451a563c506c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/LookAtCameraScript.cs using Guid(2d1c015f8b197a2438d451a563c506c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b3116de66261720d69aa1ccc380f3554') in 0.016009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Materials/Spartan_Low_mat_weapon_AlbedoTransparency.mat
+  artifactKey: Guid(3b97db3cf1dc94d42bebe01cd9072f48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/Spartan_Low_mat_weapon_AlbedoTransparency.mat using Guid(3b97db3cf1dc94d42bebe01cd9072f48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aa11b1f64fe551b27c34273fc6f7334e') in 0.101139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Textures/Player/Spartan_Low_mat_weapon_MetallicSmoothness.tga
+  artifactKey: Guid(f676452cf7d6979439a86dd55db08bf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Player/Spartan_Low_mat_weapon_MetallicSmoothness.tga using Guid(f676452cf7d6979439a86dd55db08bf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '511e6c23c8490b0373f1c61e12b25c29') in 0.087479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Resources/Shields/Materials/Shield_Albedo_Red.mat
+  artifactKey: Guid(454f3fbf61f0c5742808a1e0b2da887c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Shields/Materials/Shield_Albedo_Red.mat using Guid(454f3fbf61f0c5742808a1e0b2da887c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6ebe6beb5ef59cc465919136bc7ad54c') in 0.021736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001230 seconds.
+  path: Assets/Resources/Shields/Materials/Shield_Albedo_Black.mat
+  artifactKey: Guid(fec51eaa74e04be4884d74856b27c8de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Shields/Materials/Shield_Albedo_Black.mat using Guid(fec51eaa74e04be4884d74856b27c8de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '22c33fb1d6f40aa9ff13c6706560c792') in 0.039130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Animator Controllers/SpiderController.controller
+  artifactKey: Guid(6c7009941dcdf734bb446f1caeb09cb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animator Controllers/SpiderController.controller using Guid(6c7009941dcdf734bb446f1caeb09cb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3a4f3306832b453ecd5c5d960ba08b9a') in 0.009748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Resources/BasicSwordPack_version 1.0/Textures/jpg/spartan_diff.jpg
+  artifactKey: Guid(560ffef994c4bc74684863093eff2af7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/BasicSwordPack_version 1.0/Textures/jpg/spartan_diff.jpg using Guid(560ffef994c4bc74684863093eff2af7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0b070f0c1be70c7bd8e06af3f8ff4c0f') in 0.048256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Animations/PlayerAnimatios/2Hand-Sword/RPG-Character@2Hand-Sword-GetHit-L1.FBX
+  artifactKey: Guid(255bd4e6b8b305149aa51d53b07dd79d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/PlayerAnimatios/2Hand-Sword/RPG-Character@2Hand-Sword-GetHit-L1.FBX using Guid(255bd4e6b8b305149aa51d53b07dd79d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ce5c02ab26df1af1a255b54705377070') in 0.059866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Creatures/_GhoulZombie/GhoulSceneSettings.lighting
+  artifactKey: Guid(00d93666b36044848b80358a6278c143) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Creatures/_GhoulZombie/GhoulSceneSettings.lighting using Guid(00d93666b36044848b80358a6278c143) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) LightingSettings: switching bake backend from 1 to 0.
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4b9bfd7fee0a4ba0cafcd5a3f1472ed1') in 0.037985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/Scene.prefab
+  artifactKey: Guid(150107e43e8b3be429969d7bef66ed79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Scene.prefab using Guid(150107e43e8b3be429969d7bef66ed79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0dc27f9b656c5f2771b90f6c6cbdfacc') in 0.011215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scripts/EnemyScripts/GhoulScripts/GhoulRightHandScript.cs
+  artifactKey: Guid(d1cbae6f1b90e174ba3ffb9dda101b11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/EnemyScripts/GhoulScripts/GhoulRightHandScript.cs using Guid(d1cbae6f1b90e174ba3ffb9dda101b11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6e6bb507397f6067fc188db9941d8899') in 0.010854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/BasicSwordPack_version 1.0/Textures/jpg/khopesh_diff.jpg
+  artifactKey: Guid(68a7d7756565d5846a6ca0af7f457175) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/BasicSwordPack_version 1.0/Textures/jpg/khopesh_diff.jpg using Guid(68a7d7756565d5846a6ca0af7f457175) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a39abc5989a0f2d50040510483733c69') in 0.026402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scripts/PlayerScripts/PlayerAnimationHelper.cs
+  artifactKey: Guid(70a31643402998f4da86c525cbeb8d42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/PlayerScripts/PlayerAnimationHelper.cs using Guid(70a31643402998f4da86c525cbeb8d42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b4ecd85abb60dfa5fad09d9c09e4a1b9') in 0.009141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/InventoryBtn.cs
+  artifactKey: Guid(fee3cf35e97220544ac86bd7e7190693) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/InventoryBtn.cs using Guid(fee3cf35e97220544ac86bd7e7190693) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3ae44f96dedb85d64d1d522cb6334dbe') in 0.006304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
   path: Assets/Scripts/Inventory/ItemPickUp.cs
-  artifactKey: Guid(058b4e25f923f914eb29f97661c17215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Inventory/ItemPickUp.cs using Guid(058b4e25f923f914eb29f97661c17215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12bb065b4cf6a4fae794856c4b92cace') in 0.003579 seconds 
+  artifactKey: Guid(058b4e25f923f914eb29f97661c17215) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Inventory/ItemPickUp.cs using Guid(058b4e25f923f914eb29f97661c17215) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4efac9385be722786df7431a5e9b3b16') in 0.008642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Temp/Inventory.prefab
+  artifactKey: Guid(d779958265c8daf48ae22f2be1dcd22f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Temp/Inventory.prefab using Guid(d779958265c8daf48ae22f2be1dcd22f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac34c4f0e66c127e17e7f33920cacc67') in 0.036470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Animator Controllers/GhoulControler.controller
+  artifactKey: Guid(86325f0478e4d8e47bc62fe3390bdc5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animator Controllers/GhoulControler.controller using Guid(86325f0478e4d8e47bc62fe3390bdc5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8f4979fb9dfa60fd0efe088207636af5') in 0.061713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/GreekPack1Lite/Models/Materials/Greek_Bush_2.mat
+  artifactKey: Guid(4e3d41c451bc242488504495ee6658ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/GreekPack1Lite/Models/Materials/Greek_Bush_2.mat using Guid(4e3d41c451bc242488504495ee6658ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '16688fc05432114c1127bb1800c7ffd1') in 0.022225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Resources/GreekPack1Lite/Models/Materials/Greek_Dirt_1.mat
+  artifactKey: Guid(56b629314517e40929c83b1b37d23e54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/GreekPack1Lite/Models/Materials/Greek_Dirt_1.mat using Guid(56b629314517e40929c83b1b37d23e54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b3855d2f6acf906d86a7df861ab421b4') in 0.023073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/GreekPack1Lite/Models/Materials/Greek_Bronze_1.mat
+  artifactKey: Guid(cb01d9936a28e42caab84a5e9e68ac4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/GreekPack1Lite/Models/Materials/Greek_Bronze_1.mat using Guid(cb01d9936a28e42caab84a5e9e68ac4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '56c1fd34d32cb0b7919b5cb4aa840bb0') in 0.012360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resources/GreekPack1Lite/Models/Materials/Greek_Stone_3.mat
+  artifactKey: Guid(dd8a00cf6e7fc44d2b98129521fec2f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/GreekPack1Lite/Models/Materials/Greek_Stone_3.mat using Guid(dd8a00cf6e7fc44d2b98129521fec2f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '488a4d0f59119c2a8992f8e8aa18f237') in 0.016901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005050 seconds.
+  path: Assets/Resources/GreekPack1Lite/Models/Materials/Greek_Flower_1.mat
+  artifactKey: Guid(caa72d5aff9b84502ad37484407ceca2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/GreekPack1Lite/Models/Materials/Greek_Flower_1.mat using Guid(caa72d5aff9b84502ad37484407ceca2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a4c70d78d5ac46476eaec6bd3fc88ad8') in 0.018534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/GreekPack1Lite/Models/Materials/Greek_Grass_1.mat
+  artifactKey: Guid(e33a6ab228fd84f23b3684a158de11b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/GreekPack1Lite/Models/Materials/Greek_Grass_1.mat using Guid(e33a6ab228fd84f23b3684a158de11b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c5650b9f500ea7fecb8a172b501ac4a0') in 0.017374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Animations/PlayerAnimatios/Idles/opa.anim
+  artifactKey: Guid(0d7a2213ab8d4b940b08ed5386c09bef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/PlayerAnimatios/Idles/opa.anim using Guid(0d7a2213ab8d4b940b08ed5386c09bef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f67c659ee99816f10d65a9d3190902e2') in 0.127453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Creatures/_GhoulZombie/GhoulScene.unity
+  artifactKey: Guid(85b08af126c9990409c1c4ed5eec814d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Creatures/_GhoulZombie/GhoulScene.unity using Guid(85b08af126c9990409c1c4ed5eec814d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'de3c3ea7932e7ec4dc133fb3cc119dbe') in 0.007813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Textures/Player/Spartan_Low_mat_body_MetallicSmoothness.tga
+  artifactKey: Guid(5129c3be8952a734ca029bb79c9ed6f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Player/Spartan_Low_mat_body_MetallicSmoothness.tga using Guid(5129c3be8952a734ca029bb79c9ed6f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a0be3bbf0bcf517fc505f0e09c9d6ae7') in 0.021552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/BasicSwordPack_version 1.0/Textures/jpg/broadsword1_diff.jpg
+  artifactKey: Guid(cbd25de73d6ff1445bb1832d6a295c52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/BasicSwordPack_version 1.0/Textures/jpg/broadsword1_diff.jpg using Guid(cbd25de73d6ff1445bb1832d6a295c52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3a541dcab30b03d01de8fcde61498056') in 0.036252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/GreekPack1Lite/Models/Materials/Greek_Bark_1.mat
+  artifactKey: Guid(bf87c698a6d9f4a00a9c23a1a302c39f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/GreekPack1Lite/Models/Materials/Greek_Bark_1.mat using Guid(bf87c698a6d9f4a00a9c23a1a302c39f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd117fbad1d044ef63ed29d429eb5fbbd') in 0.024488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/GreekPack1Lite/Models/Materials/Greek_Flower_3.mat
+  artifactKey: Guid(523124601af35487bb57d52f9fe68f10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/GreekPack1Lite/Models/Materials/Greek_Flower_3.mat using Guid(523124601af35487bb57d52f9fe68f10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '618240b64aa1364b523c121dedb34402') in 0.009754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/GreekPack1Lite/Models/Materials/Greek_Silver_1.mat
+  artifactKey: Guid(2c47c88d7fcbf4ce3aa8da9f42f86898) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/GreekPack1Lite/Models/Materials/Greek_Silver_1.mat using Guid(2c47c88d7fcbf4ce3aa8da9f42f86898) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cfb43b1231057be9477a06eb037bc02a') in 0.012050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/BasicSwordPack_version 1.0/Textures/png/greatsword_diff.png
+  artifactKey: Guid(3063c506752d80c438e38072cdf58ef2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/BasicSwordPack_version 1.0/Textures/png/greatsword_diff.png using Guid(3063c506752d80c438e38072cdf58ef2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '793367c7b936c6c18790b95aedafaa7b') in 0.032004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Resources/GreekPack1Lite/Models/greek_wall_divider_1.fbx
+  artifactKey: Guid(e304c4f9872bd4b259b496c97b54e00d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/GreekPack1Lite/Models/greek_wall_divider_1.fbx using Guid(e304c4f9872bd4b259b496c97b54e00d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bb60d5e939bfe5d6133ee955525dc6c1') in 0.020847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Temp/image 10.png
+  artifactKey: Guid(78089ae7771346d478047a842bc2c600) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Temp/image 10.png using Guid(78089ae7771346d478047a842bc2c600) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1530173dadd8d3c865418f0459e53de9') in 0.028455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/GreekPack1Lite/Textures/Greek_Combined.png
+  artifactKey: Guid(57d42fa8249a84e628d946ee3d5efd40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/GreekPack1Lite/Textures/Greek_Combined.png using Guid(57d42fa8249a84e628d946ee3d5efd40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '21d4d6b7ec7477a2be910f6b40a892c8') in 0.032518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/b55e0db59a41b28b163b2bfe79bc3da7.jpg
+  artifactKey: Guid(bdc83c1850f25204da76922d6ffd87a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/b55e0db59a41b28b163b2bfe79bc3da7.jpg using Guid(bdc83c1850f25204da76922d6ffd87a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '67de399e4bf25ccf0b40e88202365892') in 0.035070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/GreekPack1Lite/Models/Optimized/greek_wall_2_corner.fbx
+  artifactKey: Guid(bf26b16c8239f4f59a365eea0b3fec4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/GreekPack1Lite/Models/Optimized/greek_wall_2_corner.fbx using Guid(bf26b16c8239f4f59a365eea0b3fec4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd0e7f841bdd669dd3e95ed3066522ef9') in 0.020946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/GreekPack1Lite/Models/Materials/Greek_Wood_1.mat
+  artifactKey: Guid(ac434d30fa0fd41a6a0a4d1ce678be54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/GreekPack1Lite/Models/Materials/Greek_Wood_1.mat using Guid(ac434d30fa0fd41a6a0a4d1ce678be54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '97670c496154091aabb3f61634168b81') in 0.012049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Resources/GreekPack1Lite/Prefabs/Objects/greek_floor_stone_1.prefab
+  artifactKey: Guid(34d863027af504a739927df283d50f54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/GreekPack1Lite/Prefabs/Objects/greek_floor_stone_1.prefab using Guid(34d863027af504a739927df283d50f54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9e3c9762d9dec48b78f0d9d8ad4aaf6f') in 0.018274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002405 seconds.
+  path: Assets/Resources/GreekPack1Lite/Models/Optimized/greek_tree_2.fbx
+  artifactKey: Guid(469fd7579034c4a75b909adde640dc1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/GreekPack1Lite/Models/Optimized/greek_tree_2.fbx using Guid(469fd7579034c4a75b909adde640dc1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '38f617ad21e4893221e817fca86e6076') in 0.021841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/GreekPack1Lite/Models/Optimized/Materials/No Name.mat
+  artifactKey: Guid(0e9c130ff647a433490dbd47203e97ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/GreekPack1Lite/Models/Optimized/Materials/No Name.mat using Guid(0e9c130ff647a433490dbd47203e97ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '82839c3427de26375bfcb0d7b7b4ea3d') in 0.019265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000864 seconds.
+  path: Assets/Resources/GreekPack1Lite/Prefabs/Objects/greek_wall_divider_2_corner.prefab
+  artifactKey: Guid(52cf6fe79e5e8482286a21960567bc56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/GreekPack1Lite/Prefabs/Objects/greek_wall_divider_2_corner.prefab using Guid(52cf6fe79e5e8482286a21960567bc56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '28887fe22c503b85a6d56bd29276f10c') in 0.020462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003514 seconds.
+  path: Assets/Resources/GreekPack1Lite/Prefabs/Objects/greek_tree_2.prefab
+  artifactKey: Guid(6a795ebc8fb3847c49aadadb856a09de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/GreekPack1Lite/Prefabs/Objects/greek_tree_2.prefab using Guid(6a795ebc8fb3847c49aadadb856a09de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '151f7b59811eb371ca0a294eb61c03d1') in 0.012530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/GreekPack1Lite/Prefabs/Objects/greek_wall_column_1.prefab
+  artifactKey: Guid(dd38b37b510544adbb92ccac89d70202) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/GreekPack1Lite/Prefabs/Objects/greek_wall_column_1.prefab using Guid(dd38b37b510544adbb92ccac89d70202) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '315dee50c4e6f3e815d2b6213bdccac5') in 0.016218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Resources/GreekPack1Lite/Prefabs/Objects/greek_stairs_stone_corner.prefab
+  artifactKey: Guid(59df19ce6f8e647159d9bee24a6a0af2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/GreekPack1Lite/Prefabs/Objects/greek_stairs_stone_corner.prefab using Guid(59df19ce6f8e647159d9bee24a6a0af2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd2854d024997ac1abbab174f4c287b1e') in 0.015648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002336 seconds.
+  path: Assets/Resources/GreekPack1Lite/Models/Optimized/greek_wall_divider_1.fbx
+  artifactKey: Guid(3c00d5238781748bd9606397b3544b4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/GreekPack1Lite/Models/Optimized/greek_wall_divider_1.fbx using Guid(3c00d5238781748bd9606397b3544b4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '91e50445bbcd78da94d5fc0e24d66ceb') in 0.025931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/GreekPack1Lite/Prefabs/Objects/greek_wall_1_short.prefab
+  artifactKey: Guid(5be5596e14f484ae49cec1307a7e7d92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/GreekPack1Lite/Prefabs/Objects/greek_wall_1_short.prefab using Guid(5be5596e14f484ae49cec1307a7e7d92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5191159b45269fb4620ab6d49a875c3d') in 0.024487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resources/GreekPack1Lite/Models/Materials/Greek_Tree_1.mat
+  artifactKey: Guid(847f9c8503e5246caa8d64722a7f945d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/GreekPack1Lite/Models/Materials/Greek_Tree_1.mat using Guid(847f9c8503e5246caa8d64722a7f945d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '679f3ff6038796f690d2666edba4270a') in 0.013582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/GreekPack1Lite/Prefabs/Objects/greek_roof_support_1_square.prefab
+  artifactKey: Guid(23d2c27c021bf458dbea5e5439e337b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/GreekPack1Lite/Prefabs/Objects/greek_roof_support_1_square.prefab using Guid(23d2c27c021bf458dbea5e5439e337b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8e11a35b239500103092fe08deb149e3') in 0.010119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/GreekPack1Lite/Models/Optimized/greek_wall_2_window.fbx
+  artifactKey: Guid(2c315cf1e2ee34a84a518d1afd8a04d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/GreekPack1Lite/Models/Optimized/greek_wall_2_window.fbx using Guid(2c315cf1e2ee34a84a518d1afd8a04d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fa0de3aa431264e046bb11b8250c4611') in 0.032708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Resources/GreekPack1Lite/Models/Optimized/greek_wall_column_1.fbx
+  artifactKey: Guid(ca0f1ba41347b4c5792659c6befeebe6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/GreekPack1Lite/Models/Optimized/greek_wall_column_1.fbx using Guid(ca0f1ba41347b4c5792659c6befeebe6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4cbb7371b40355f5a361b64ff2fb685') in 0.028233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/GreekPack1Lite/Prefabs/Objects/greek_roof_support_1.prefab
+  artifactKey: Guid(86da1ad6886b74c66bd850a4c1de0b31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/GreekPack1Lite/Prefabs/Objects/greek_roof_support_1.prefab using Guid(86da1ad6886b74c66bd850a4c1de0b31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e271cd4489b25d67304daea99f70f253') in 0.015416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Resources/GreekPack1Lite/Models/Materials/Greek_Roof_2.mat
+  artifactKey: Guid(a2540eb5d2d934977881a49c82bcb3e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/GreekPack1Lite/Models/Materials/Greek_Roof_2.mat using Guid(a2540eb5d2d934977881a49c82bcb3e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a39532c3ca47111eac470e227da9da24') in 0.009843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/Resources/BasicSwordPack_version 1.0/Models/broadsowrd1.FBX
+  artifactKey: Guid(d1437319644748b4e9d59daa7e67a852) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/BasicSwordPack_version 1.0/Models/broadsowrd1.FBX using Guid(d1437319644748b4e9d59daa7e67a852) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '28e13102b45ad65a4b958d14866880c9') in 0.019983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scripts/Inventory/InventoryUI.cs
+  artifactKey: Guid(cb74380b3f43b2b4db8492a39fe1354a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Inventory/InventoryUI.cs using Guid(cb74380b3f43b2b4db8492a39fe1354a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3adce6c7101965238fb98f320f96d4a1') in 0.016754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Temp/PlayerStatusBar.prefab
+  artifactKey: Guid(9a88d3e4cca1a194bb58bf3461e557a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Temp/PlayerStatusBar.prefab using Guid(9a88d3e4cca1a194bb58bf3461e557a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6316146cde8068f2bff439efa87a8aaf') in 0.018166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Animations/PlayerAnimatios/2Hand-Sword/RPG-Character@2Hand-Sword-GetHit-F2.FBX
+  artifactKey: Guid(f8cbd01bd5b649048bf365e4ece13d69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/PlayerAnimatios/2Hand-Sword/RPG-Character@2Hand-Sword-GetHit-F2.FBX using Guid(f8cbd01bd5b649048bf365e4ece13d69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '889eac9631cc99e136368ba8fd1ae658') in 0.051245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Resources/Kevin Iglesias/Melee Warrior Animations/Models/Characters/HumanMeleeWarrior.fbx
+  artifactKey: Guid(9035850883732af4daf57c888e1fefce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Kevin Iglesias/Melee Warrior Animations/Models/Characters/HumanMeleeWarrior.fbx using Guid(9035850883732af4daf57c888e1fefce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a72c3f70610b8f98d54aac2c3f429ced') in 0.105156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Resources/GreekPack1Lite/Prefabs/Objects/Optimized/greek_column_2.prefab
+  artifactKey: Guid(7aaea4c6ceef14ca8a5866beb67602d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/GreekPack1Lite/Prefabs/Objects/Optimized/greek_column_2.prefab using Guid(7aaea4c6ceef14ca8a5866beb67602d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '23cd5df46a1b9a184722685a1453d597') in 0.020206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resources/GreekPack1Lite/Prefabs/Objects/Optimized/greek_wall_1_short.prefab
+  artifactKey: Guid(2f64a188d4a88411699cb128883e863c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/GreekPack1Lite/Prefabs/Objects/Optimized/greek_wall_1_short.prefab using Guid(2f64a188d4a88411699cb128883e863c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '452d166da28afc98543df7eaa5e5a293') in 0.020203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/GreekPack1Lite/Prefabs/Objects/Optimized/greek_wall_divider_1_corner.prefab
+  artifactKey: Guid(18fe6bae84f7f4a118d78542f46e044f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/GreekPack1Lite/Prefabs/Objects/Optimized/greek_wall_divider_1_corner.prefab using Guid(18fe6bae84f7f4a118d78542f46e044f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f638d96945b3c542c9efa1e1e9c8f05c') in 0.039897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/GreekPack1Lite/Models/Materials/Greek_Stone_5.mat
+  artifactKey: Guid(257dfd3a2570d46ef994063289de7684) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/GreekPack1Lite/Models/Materials/Greek_Stone_5.mat using Guid(257dfd3a2570d46ef994063289de7684) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1c043db40f0f4a798b07db32f9889308') in 0.011885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/GreekPack1Lite/Models/greek_wall_2_corner.fbx
+  artifactKey: Guid(c7f57c2010cac4421b7c883e95751d30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/GreekPack1Lite/Models/greek_wall_2_corner.fbx using Guid(c7f57c2010cac4421b7c883e95751d30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c87c5835ce600e979af116d511d629f8') in 0.028609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Resources/GreekPack1Lite/Models/Optimized/greek_floor_stone_1.fbx
+  artifactKey: Guid(6d7c450bf11474e3ca044e5b660efa9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/GreekPack1Lite/Models/Optimized/greek_floor_stone_1.fbx using Guid(6d7c450bf11474e3ca044e5b660efa9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '98318b938020070a5a6e4e25e49a18b0') in 0.022251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/Shields/Materials/ShieldRed.mat
+  artifactKey: Guid(297eae7f208616e459589916ee277406) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Shields/Materials/ShieldRed.mat using Guid(297eae7f208616e459589916ee277406) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8a07b7bf93747131f714f808e25547cd') in 0.035137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/GreekPack1Lite/Prefabs/Objects/Optimized/greek_roof_1.prefab
+  artifactKey: Guid(d61eb9bc178fc4ab8b652cb3edc513a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/GreekPack1Lite/Prefabs/Objects/Optimized/greek_roof_1.prefab using Guid(d61eb9bc178fc4ab8b652cb3edc513a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1f64bf5a9d58c14a1e825c47a66642b6') in 0.015484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/Shields/Models/Materials/Shield.mat
+  artifactKey: Guid(890f2c1d64a448c43a8688e31fba26a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Shields/Models/Materials/Shield.mat using Guid(890f2c1d64a448c43a8688e31fba26a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3b24da3cbc09f3f1924faccba6a7f9ce') in 0.044510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Resources/GreekPack1Lite/Models/Materials/Greek_Vine_1.mat
+  artifactKey: Guid(6afd25be3eebe47f0bfbc21a6637aaae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/GreekPack1Lite/Models/Materials/Greek_Vine_1.mat using Guid(6afd25be3eebe47f0bfbc21a6637aaae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9b201d4caff9e7d3860c666bc7e5967f') in 0.011781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/GreekPack1Lite/Prefabs/Objects/Optimized/greek_stairs_stone_corner.prefab
+  artifactKey: Guid(f5b1e8fc198b24ebf85f258b7b247ac6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/GreekPack1Lite/Prefabs/Objects/Optimized/greek_stairs_stone_corner.prefab using Guid(f5b1e8fc198b24ebf85f258b7b247ac6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b11f51d270dc33a4ee976f93503490cb') in 0.016614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefabs/Ghoul@Animations.prefab
+  artifactKey: Guid(144dc29d649dd434695fd127819e82d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Ghoul@Animations.prefab using Guid(144dc29d649dd434695fd127819e82d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b6b4f62cba58e5f70ad4685443486f72') in 0.066049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Textures/UI/Buttons/info-button.png
+  artifactKey: Guid(337192d82ecf4a14f928d8b790eea192) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/UI/Buttons/info-button.png using Guid(337192d82ecf4a14f928d8b790eea192) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '11b4984b23b239dc131df31341605017') in 0.021537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/BasicSwordPack_version 1.0/Materials/broadsword2_diff.mat
+  artifactKey: Guid(ce446e53f1dd75d4a8617cc15e2d916b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/BasicSwordPack_version 1.0/Materials/broadsword2_diff.mat using Guid(ce446e53f1dd75d4a8617cc15e2d916b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b6e5c34dfddf30fc16337b85b8add0e8') in 0.016035 seconds 
 ========================================================================
 Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004755 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 3.86 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.157 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1158ms)
-		BeginReloadAssembly (166ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (852ms)
-			LoadAssemblies (147ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (373ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (306ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (46ms)
-				ProcessInitializeOnLoadAttributes (203ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1676 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 12 unused Assets / (24.7 KB). Loaded Objects now: 2156.
-Memory consumption went from 73.4 MB to 73.4 MB.
-Total: 2.178100 ms (FindLiveObjects: 0.134600 ms CreateObjectMapping: 0.075000 ms MarkObjects: 1.945700 ms  DeleteObjects: 0.022000 ms)
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (23.4 KB). Loaded Objects now: 2155.
+Memory consumption went from 41.2 MB to 41.1 MB.
+Total: 4.082200 ms (FindLiveObjects: 0.151200 ms CreateObjectMapping: 0.066400 ms MarkObjects: 3.828600 ms  DeleteObjects: 0.035000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -250,6 +1211,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
